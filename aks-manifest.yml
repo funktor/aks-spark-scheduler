@@ -1,0 +1,68 @@
+apiVersion: sparkoperator.k8s.io/v1beta2
+kind: ScheduledSparkApplication
+metadata:
+  name: spark-task
+  namespace: default
+spec:
+  # Run the job every minute
+  schedule: "* * * * *" 
+  concurrencyPolicy: Allow
+  template:
+    type: Python
+    pythonVersion: "3"
+    mode: cluster
+    image: amondal.azurecr.io/aks-scheduler:latest
+    imagePullPolicy: Always
+    mainClass: org.apache.spark.examples.SparkPi
+    mainApplicationFile: 'local:///app/aks_executor.py'
+    imagePullSecrets:
+      - my-secret
+    deps:
+      packages:
+        - org.apache.hadoop:hadoop-azure:3.3.5
+    restartPolicy:
+      type: Never
+    sparkVersion: "3.4.2"
+    driver:
+      serviceAccount: spark
+      javaOptions: "-Divy.cache.dir=/tmp -Divy.home=/tmp"
+      envSecretKeyRefs:
+        APP_ID:
+          name: app
+          key: app_id
+        TENANT_ID:
+          name: app
+          key: tenant_id
+        APP_SECRET:
+          name: app
+          key: app_secret
+        BLOB_STORAGE_URL:
+          name: app
+          key: blob_storage_url
+        BLOB_STORAGE_INP_CONTAINER:
+          name: app
+          key: blob_storage_inp
+        BLOB_STORAGE_OUT_CONTAINER:
+          name: app
+          key: blob_storage_out
+    executor:
+      instances: 5
+      envSecretKeyRefs:
+        APP_ID:
+          name: app
+          key: app_id
+        TENANT_ID:
+          name: app
+          key: tenant_id
+        APP_SECRET:
+          name: app
+          key: app_secret
+        BLOB_STORAGE_URL:
+          name: app
+          key: blob_storage_url
+        BLOB_STORAGE_INP_CONTAINER:
+          name: app
+          key: blob_storage_inp
+        BLOB_STORAGE_OUT_CONTAINER:
+          name: app
+          key: blob_storage_out

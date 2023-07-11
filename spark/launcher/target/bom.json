@@ -1,0 +1,327 @@
+{
+  "bomFormat" : "CycloneDX",
+  "specVersion" : "1.4",
+  "serialNumber" : "urn:uuid:88657dea-9665-4fae-a415-2d7b4a1b488a",
+  "version" : 1,
+  "metadata" : {
+    "timestamp" : "2023-06-17T15:13:16Z",
+    "tools" : [
+      {
+        "vendor" : "OWASP Foundation",
+        "name" : "CycloneDX Maven plugin",
+        "version" : "2.7.9",
+        "hashes" : [
+          {
+            "alg" : "MD5",
+            "content" : "8e595cdb67f17e4b41e046456970591d"
+          },
+          {
+            "alg" : "SHA-1",
+            "content" : "69e8ca804520d09ce4657e7235bae84d01cbffa6"
+          },
+          {
+            "alg" : "SHA-256",
+            "content" : "aa09074fe5aa403c008cd4fc7ef8ce41cd244489337f16b3e91a3914158a4db8"
+          },
+          {
+            "alg" : "SHA-512",
+            "content" : "1488a8112da8e675813d7585f57c5efb178aed32901118186ee12d0e4ae3d19c53774c7f860bf70d17d70f050119b69443a2637cf641675b4b5d9cdcdd69b89b"
+          },
+          {
+            "alg" : "SHA-384",
+            "content" : "b097295dfbf10887abc6eec58d4d0822cde5a73d1f5c1cf183a57bf569016ad5ced9d34efae3e574d82bb62837540c6c"
+          },
+          {
+            "alg" : "SHA3-384",
+            "content" : "289f9520bd73a2031276248a6ef8f0891c691062c2d1ea86a2bc9ea8db2c52377d92a53be9957179e71aee3deda26a8c"
+          },
+          {
+            "alg" : "SHA3-256",
+            "content" : "32b50a7efe5d491a4039c0017eca3cf49d98b55fc66d06b3dd06209487323474"
+          },
+          {
+            "alg" : "SHA3-512",
+            "content" : "1daf813da53e5d5cda4d0302ff3a5e388aa45d96ebe6dcbe240f35d33f14b1e6390f6bbe7f21f3ed8cf96ebd9f5516a08b18487b7339715109c81cebfc1563df"
+          }
+        ]
+      }
+    ],
+    "component" : {
+      "publisher" : "Apache Software Foundation",
+      "group" : "org.apache.spark",
+      "name" : "spark-launcher_2.12",
+      "version" : "3.5.0-SNAPSHOT",
+      "description" : "The Apache Software Foundation provides support for the Apache community of open-source software projects. The Apache projects are characterized by a collaborative, consensus based development process, an open and pragmatic software license, and a desire to create high quality software that leads the way in its field. We consider ourselves not simply a group of projects sharing a server, but rather a community of developers and users.",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.apache.spark/spark-launcher_2.12@3.5.0-SNAPSHOT?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://spark.apache.org/"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://repository.apache.org/service/local/staging/deploy/maven2"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://issues.apache.org/jira/browse/SPARK"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "dev-subscribe@spark.apache.org"
+        },
+        {
+          "type" : "vcs",
+          "url" : "scm:git:git@github.com:apache/spark.git/spark-launcher_2.12"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.apache.spark/spark-launcher_2.12@3.5.0-SNAPSHOT?type=jar"
+    },
+    "properties" : [
+      {
+        "name" : "maven.goal",
+        "value" : "makeBom"
+      },
+      {
+        "name" : "maven.scopes",
+        "value" : "compile,provided,runtime,system"
+      }
+    ]
+  },
+  "components" : [
+    {
+      "publisher" : "Apache Software Foundation",
+      "group" : "org.apache.spark",
+      "name" : "spark-tags_2.12",
+      "version" : "3.5.0-SNAPSHOT",
+      "description" : "The Apache Software Foundation provides support for the Apache community of open-source software projects. The Apache projects are characterized by a collaborative, consensus based development process, an open and pragmatic software license, and a desire to create high quality software that leads the way in its field. We consider ourselves not simply a group of projects sharing a server, but rather a community of developers and users.",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "d973a2c733fb53481f21c66df62c2ff2"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "83ec5125fd6d797a729a524eb0d8199213a3db34"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "1250847b5632ac256fff52032db02303dd8340159a43e3e68efaf47ea5a0857d"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "db162208bb86ef2645d122bb2852991bdbeda1b647e78d4d761600aa179ed7f6202022053908f5f4f6f92c93841ea002102175ebf43fd59ba003a7c296ea3bb9"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "dfee6d0f8b88840233c74208e3346d6eb36fff70a2a406e1d84c1275298ce054b0ddadd22887a6c56a92d193bf44c695"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "d6d12341c397c865ee29e78c5afb6cce7cf1b2538ae2cde5cfe4ad14a75da0e97bab6a8c8628501ba3bb2d574434908d"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "10e3733474b5c7cea7f2db13f1eb1ec4f82606d2af47d03ea90aece26323240b"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "cc803de485a7bb462ff60d611b03a0fd786855e4fe30c0359552722ff6dfbb2046b9d7891aaf27346d26a33caf98d936b1290ee5374221b69e31cfd707472317"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.apache.spark/spark-tags_2.12@3.5.0-SNAPSHOT?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://spark.apache.org/"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://repository.apache.org/service/local/staging/deploy/maven2"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://issues.apache.org/jira/browse/SPARK"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "dev-subscribe@spark.apache.org"
+        },
+        {
+          "type" : "vcs",
+          "url" : "scm:git:git@github.com:apache/spark.git/common/spark-tags_2.12"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.apache.spark/spark-tags_2.12@3.5.0-SNAPSHOT?type=jar"
+    },
+    {
+      "publisher" : "LAMP/EPFL",
+      "group" : "org.scala-lang",
+      "name" : "scala-library",
+      "version" : "2.12.17",
+      "description" : "Standard library for the Scala Programming Language",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "1b31b3bd2d82c3ad05895815423e0caf"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "4a4dee1ebb59ed1dbce014223c7c42612e4cddde"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "7eefde7e3cc1937f78dc13b9e6c00746f602cff6f5621d62df2c24d922619fe0"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "31a05fdabb79470122abdf184defbc21bb713e1bef57014e187b3165a0630ae901a7dc86ce5312a48bd7b7e215e4226a9b04807e3a6a1a44099f174c46df0bba"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "269c694c2467ea1fa2effba54d59efa5ee806f2eb68dba97398977d28b6bad3c19796f0e43309ea64942fb750ba81754"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "f1743f62c50219057d97f9832d4e82f831d36eeacaf9ed9aa403ba8f838833e279c871f33ce8e2c9d21ba88a05c742b1"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "83c8eb1e819e12715d2b76abb987b19bdaa4f71dac61b398dc7aff9bc87c2339"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "a70056828f6a2fcecfaea4776f64e823d5962ac4144dd11277417e68e059b5abe4cb11e3ad1df8f7cb7c21d6ba9f35963519670c15dd6f840cbf57c61f2ca236"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0",
+            "url" : "https://www.apache.org/licenses/LICENSE-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.scala-lang/scala-library@2.12.17?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://www.scala-lang.org/"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://github.com/scala/bug/issues"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/scala/scala"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.scala-lang/scala-library@2.12.17?type=jar"
+    },
+    {
+      "group" : "org.spark-project.spark",
+      "name" : "unused",
+      "version" : "1.0.0",
+      "description" : "Sonatype helps open source projects to set up Maven repositories on https://oss.sonatype.org/",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "763373ce9fe48581d4f2b8ffca35bb82"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "205fe37a2fade6ce6dfcf8eff57ed21a4a1c22af"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "00fd27fc9bde701581e7dcf5b95981d9e749a1c176bb8bfcd49f675768ff6bf0"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "08a6ac8d2dc9d89ff557c7e96096c76e687efe3ce166aa6dbb76865bbef64dc8b6ecb5561ef03c2451a688ccdb3876b8f16b9137d02c290a698e917a5656b6fa"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "c8c51d0d851835107db273d7ce522f026587d922c9d1d34739c3dedf9b7737c1c491e961dc7931f46c476d28acbc91f6"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "49f87e8e11e7a4d9da068d33185a89bb8e7eef339a0e2932246acbaa8ad90a30ec353e9e71147a78a8b74dfe4bdd3a3b"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "a943ae35f4d584810323330b6ef241a869b0187e4d3dfd79f8e504ebb0882cf2"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "1e7845ca316f39bc5ffc75afe0dcb437fe13b8c2133a396824dec8f3a5bd56243086989264f8f40df4cb2ba749709e3a90cdceb39c05727cbd82d86570e4f57d"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.spark-project.spark/unused@1.0.0?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://nexus.sonatype.org/oss-repository-hosting.html/unused"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.spark-project.spark/unused@1.0.0?type=jar"
+    }
+  ],
+  "dependencies" : [
+    {
+      "ref" : "pkg:maven/org.apache.spark/spark-launcher_2.12@3.5.0-SNAPSHOT?type=jar",
+      "dependsOn" : [
+        "pkg:maven/org.apache.spark/spark-tags_2.12@3.5.0-SNAPSHOT?type=jar",
+        "pkg:maven/org.spark-project.spark/unused@1.0.0?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/org.apache.spark/spark-tags_2.12@3.5.0-SNAPSHOT?type=jar",
+      "dependsOn" : [
+        "pkg:maven/org.scala-lang/scala-library@2.12.17?type=jar",
+        "pkg:maven/org.spark-project.spark/unused@1.0.0?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/org.scala-lang/scala-library@2.12.17?type=jar",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/org.spark-project.spark/unused@1.0.0?type=jar",
+      "dependsOn" : [ ]
+    }
+  ]
+}

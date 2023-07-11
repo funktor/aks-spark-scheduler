@@ -1,0 +1,1008 @@
+{
+  "bomFormat" : "CycloneDX",
+  "specVersion" : "1.4",
+  "serialNumber" : "urn:uuid:12af0783-4b8c-4893-90b9-27c36cbefe8b",
+  "version" : 1,
+  "metadata" : {
+    "timestamp" : "2023-06-17T15:42:00Z",
+    "tools" : [
+      {
+        "vendor" : "OWASP Foundation",
+        "name" : "CycloneDX Maven plugin",
+        "version" : "2.7.9",
+        "hashes" : [
+          {
+            "alg" : "MD5",
+            "content" : "8e595cdb67f17e4b41e046456970591d"
+          },
+          {
+            "alg" : "SHA-1",
+            "content" : "69e8ca804520d09ce4657e7235bae84d01cbffa6"
+          },
+          {
+            "alg" : "SHA-256",
+            "content" : "aa09074fe5aa403c008cd4fc7ef8ce41cd244489337f16b3e91a3914158a4db8"
+          },
+          {
+            "alg" : "SHA-512",
+            "content" : "1488a8112da8e675813d7585f57c5efb178aed32901118186ee12d0e4ae3d19c53774c7f860bf70d17d70f050119b69443a2637cf641675b4b5d9cdcdd69b89b"
+          },
+          {
+            "alg" : "SHA-384",
+            "content" : "b097295dfbf10887abc6eec58d4d0822cde5a73d1f5c1cf183a57bf569016ad5ced9d34efae3e574d82bb62837540c6c"
+          },
+          {
+            "alg" : "SHA3-384",
+            "content" : "289f9520bd73a2031276248a6ef8f0891c691062c2d1ea86a2bc9ea8db2c52377d92a53be9957179e71aee3deda26a8c"
+          },
+          {
+            "alg" : "SHA3-256",
+            "content" : "32b50a7efe5d491a4039c0017eca3cf49d98b55fc66d06b3dd06209487323474"
+          },
+          {
+            "alg" : "SHA3-512",
+            "content" : "1daf813da53e5d5cda4d0302ff3a5e388aa45d96ebe6dcbe240f35d33f14b1e6390f6bbe7f21f3ed8cf96ebd9f5516a08b18487b7339715109c81cebfc1563df"
+          }
+        ]
+      }
+    ],
+    "component" : {
+      "publisher" : "Apache Software Foundation",
+      "group" : "org.apache.spark",
+      "name" : "spark-tools_2.12",
+      "version" : "3.5.0-SNAPSHOT",
+      "description" : "The Apache Software Foundation provides support for the Apache community of open-source software projects. The Apache projects are characterized by a collaborative, consensus based development process, an open and pragmatic software license, and a desire to create high quality software that leads the way in its field. We consider ourselves not simply a group of projects sharing a server, but rather a community of developers and users.",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.apache.spark/spark-tools_2.12@3.5.0-SNAPSHOT?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://spark.apache.org/"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://repository.apache.org/service/local/staging/deploy/maven2"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://issues.apache.org/jira/browse/SPARK"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "dev-subscribe@spark.apache.org"
+        },
+        {
+          "type" : "vcs",
+          "url" : "scm:git:git@github.com:apache/spark.git/spark-tools_2.12"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.apache.spark/spark-tools_2.12@3.5.0-SNAPSHOT?type=jar"
+    },
+    "properties" : [
+      {
+        "name" : "maven.goal",
+        "value" : "makeBom"
+      },
+      {
+        "name" : "maven.scopes",
+        "value" : "compile,provided,runtime,system"
+      }
+    ]
+  },
+  "components" : [
+    {
+      "publisher" : "LAMP/EPFL",
+      "group" : "org.scala-lang",
+      "name" : "scala-reflect",
+      "version" : "2.12.17",
+      "description" : "Reflection Library for the Scala Programming Language",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "a46012d6791564e644aa983cdc9f7135"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "c0fcfc7932ee0c92e6d00d1c7c47d5042391a987"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "000c8142b28fba079eb1e3c56b7587d73b48f8b23fb22123d8403ca84bfad7db"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "fe0ecc5b1f6b5fb5b7ab8a1c71254ba2532c78fc94941ea22148549f662ab1d82862cf9a0bc8c21870836fd7061182c23c2d927787a5b3d59cb2ce4345f355a7"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "0bbe6d9851e79b15a47311bd89b69e3e5fc0120696207bca35d407fabd0f7d182f8797f6b0df0db9b8bd73ea8f3affd5"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "57e113c37ed53b4a6611ccb3fd9670704ecc4597a340f6b4b632467182816834cba58f358981a3c88f7055497715d9eb"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "7a59aa9843beff081b4d5eec758d99e6a25f69b68184cee5d20f27c6de575f5a"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "55bf1fb11c07e4e504bfd68bdd107b9a3e57b6c4cc81cc6b40477480acba53f6bbd9638a0ea51fefad166c807bab81e6c7bc770f1fcf8b8555a737f3fb4f4e71"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0",
+            "url" : "https://www.apache.org/licenses/LICENSE-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.scala-lang/scala-reflect@2.12.17?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://www.scala-lang.org/"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://github.com/scala/bug/issues"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/scala/scala"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.scala-lang/scala-reflect@2.12.17?type=jar"
+    },
+    {
+      "publisher" : "LAMP/EPFL",
+      "group" : "org.scala-lang",
+      "name" : "scala-library",
+      "version" : "2.12.17",
+      "description" : "Standard library for the Scala Programming Language",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "1b31b3bd2d82c3ad05895815423e0caf"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "4a4dee1ebb59ed1dbce014223c7c42612e4cddde"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "7eefde7e3cc1937f78dc13b9e6c00746f602cff6f5621d62df2c24d922619fe0"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "31a05fdabb79470122abdf184defbc21bb713e1bef57014e187b3165a0630ae901a7dc86ce5312a48bd7b7e215e4226a9b04807e3a6a1a44099f174c46df0bba"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "269c694c2467ea1fa2effba54d59efa5ee806f2eb68dba97398977d28b6bad3c19796f0e43309ea64942fb750ba81754"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "f1743f62c50219057d97f9832d4e82f831d36eeacaf9ed9aa403ba8f838833e279c871f33ce8e2c9d21ba88a05c742b1"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "83c8eb1e819e12715d2b76abb987b19bdaa4f71dac61b398dc7aff9bc87c2339"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "a70056828f6a2fcecfaea4776f64e823d5962ac4144dd11277417e68e059b5abe4cb11e3ad1df8f7cb7c21d6ba9f35963519670c15dd6f840cbf57c61f2ca236"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0",
+            "url" : "https://www.apache.org/licenses/LICENSE-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.scala-lang/scala-library@2.12.17?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://www.scala-lang.org/"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://github.com/scala/bug/issues"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/scala/scala"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.scala-lang/scala-library@2.12.17?type=jar"
+    },
+    {
+      "publisher" : "LAMP/EPFL",
+      "group" : "org.scala-lang",
+      "name" : "scala-compiler",
+      "version" : "2.12.17",
+      "description" : "Compiler for the Scala Programming Language",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "ae27f3583f5b54596f6d081c486df32a"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "29b4e911d1e2349a62e55ef76987acd92f0e8eed"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "8e5bf44ecc277327ef0518e7b1ffc1f46b48dffc7368705d964282da7be703da"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "c5aa319301d99c7573148cf57edc16fc29cea756a625d56d5ebed70751801cce8adaeb9a70180e83ffec66335738577b056f53ac14672b493ec5b6c76404f273"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "9234b83dbe4aa49790a79e93f6158abad01ebe92df8f6b30909dbd92ccfe8482fb2832ae7f40022fffbd2e022481fffa"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "9495899640d0db159bab1247a2c68410c7542d572e725a91d0205f0b80bd8553544af35d0c5cfca6a40f01b8b2f65d6c"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "74f332c29809df13436e1f4325235fff3e06e5bedc9bda38d238d4c3599d8a5b"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "2d2c241a1293fc592c489bba9e89237a542362737f298c6f39cc3d6f6ed513abafd1d69d55a96a9ca5c60d0c344a3c91d1000267fff0e2f91811dcad1ae76c9a"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0",
+            "url" : "https://www.apache.org/licenses/LICENSE-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.scala-lang/scala-compiler@2.12.17?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://www.scala-lang.org/"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://github.com/scala/bug/issues"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/scala/scala"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.scala-lang/scala-compiler@2.12.17?type=jar"
+    },
+    {
+      "publisher" : "org.clapper",
+      "group" : "org.clapper",
+      "name" : "classutil_2.12",
+      "version" : "1.5.1",
+      "description" : "A library for fast runtime class-querying, and more",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "5432a8d88154a72ce28b0a97603ef2f2"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "c0a26a9fb768c326ea4048373c3425717c5ef5ed"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "c90bbf90fa57433d94fdd4669957d8b3734dc70d80292ddf24695b440ec48bdf"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "fd1a137988a453c2833397a162fd90ec5c0cb18c66ed1a59c5bc22e6c51d9068d215905b34c31491e5d4d086cbf0563722c907c1b65dfa22298e7b7d7ad4f582"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "e731bf1d89ac6b0b95412ce45628247f51e20d0691ee97c3b267ed4d6e19c9feb5be7c154350cfc1f09589a0e3e59c43"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "dcb7554a9edcf7dc580773ab0279bfe491579791e522b802a013c5e818f254c69517842f513ae12555d2dfdb55637ad0"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "e58e6d2cb8d187256a193fd6f9cd2b4efcba21e028f571bdea1ca10c092677a6"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "90bbab1eb6c46e7588aeea970ece6da1cd1199bfd42857a9ec75e158e241f961a22e1fb51502384540fa11b54835acc724d3dd2e090705bf1c44c6e22c19d1e3"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.clapper/classutil_2.12@1.5.1?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://software.clapper.org/classutil/"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.clapper/classutil_2.12@1.5.1?type=jar"
+    },
+    {
+      "publisher" : "org.clapper",
+      "group" : "org.clapper",
+      "name" : "grizzled-scala_2.12",
+      "version" : "4.9.3",
+      "description" : "A general-purpose Scala utility library",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "8c9bfc950a5a703292323280dcd0cf4d"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "fae01e95b44a67d3e56827c45eb0a7cce4580078"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "16485f8e4f6e84d9bd2f31cc0c359dd57b8b32018fe584c1f21b602149512643"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "873ddf279a9773f1089d1361d767d8db1b947e0bc50a348914ec926080660ec4c5b7b2caaca3cc09e1623b28bae0bdeee2dea6505a645cf0e62a49bed5f917e5"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "eb8a2674de2856056be22a14bd99ea7ace8e6636444092206195c6adf7ede7af3df00b49d27ab4bfc56bdc73ff8c725e"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "5a05616e237f79d5c8fc204786e40f4a35837df1e14c2ff683d8d1fda32fe51e4cdc77fdf6e3e698b1780f106ed1e743"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "c9469e68c4838f52bae743be4db0ce20a68c6d485019f46ea4a440a2d46c4832"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "2cb0289b5e7e934e489bd65dafaacae622d0c2be2dc2c2e0ee066937bb313fbf7630fd55a4809249b37a511adab93bf1971b3a132ca455bb9ecbd1778bfbd302"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "BSD-4-Clause"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.clapper/grizzled-scala_2.12@4.9.3?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://software.clapper.org/grizzled-scala/"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.clapper/grizzled-scala_2.12@4.9.3?type=jar"
+    },
+    {
+      "publisher" : "org.scala-lang.modules",
+      "group" : "org.scala-lang.modules",
+      "name" : "scala-collection-compat_2.12",
+      "version" : "2.0.0",
+      "description" : "scala-collection-compat",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "9bad1a8fa33b8463bbeae0be342e4413"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "9d5f2b7d65830becb108330ad3fcab017eaca4e8"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "434b0783eaf4855aee27cb47e7372c5dfb39ba0d056485e047745bdb8832da70"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "341537041094887137f7f615cdb99d6bfd02aea1effc175a89077807c835797ab363f30e5ddad2b84ef62a865c7193a138a8c986b819e3fca08e3252dfae24f4"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "4b61e5b3f86f1db214be7f00526db7f84d2f7e612fb8507a39829326f79b47efab68820ef5280e4141751684539ba4b2"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "79f73419551545ecdec9824bbf7bba2286c665ca48547cc05f2006de8c344cf76401218457a4d5179fd240c997b61940"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "fb485a06aadc34dfecba2a6dc344b308f4168d6ba21acf55713cf3d14a7428b6"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "01122ece2e1999e89d787c287320d10b71cd850caecf2d8f99cef9cca9f1902c512dd6e8e819a585edb88c81fe6452ea42eaf6984523aa47a19011d4c82da474"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0",
+            "url" : "https://www.apache.org/licenses/LICENSE-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.scala-lang.modules/scala-collection-compat_2.12@2.0.0?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://www.scala-lang.org/"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://github.com/scala/scala-collection-compat/issues"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/scala/scala-collection-compat"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.scala-lang.modules/scala-collection-compat_2.12@2.0.0?type=jar"
+    },
+    {
+      "publisher" : "OW2",
+      "group" : "org.ow2.asm",
+      "name" : "asm",
+      "version" : "9.5",
+      "description" : "ASM, a very small and fast Java bytecode manipulation framework",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "29721ee4b5eacf0a34b204c345c8bc69"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "dc6ea1875f4d64fbc85e1691c95b96a3d8569c90"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "b62e84b5980729751b0458c534cf1366f727542bb8d158621335682a460f0353"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "9e65f2983783725bae196ca939b45246958731246df1c495089c8ea5ce646de77c4e01a5a9ba10642016bb3258e1727e9ebcece6e74d9e3c32f528025d76b955"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "db0c70803b0fd3ef17b29d90d0540ca6f7589012281035f1a21cd3c70c4658f95e82190d7670b15130e88e8c704e0781"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "35e433fcbbde557ef1d7e52900e309799853d4d9f08d618a9766ca931eb85a6d6c8361b481ecc8f60f4495978a047b09"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "7808baa8efadeaa53cd64a5c16828fe5addc3a5bd6347708288994de809986b6"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "c5e0902f4b58e8efde87b337eec16f5a0ee8e579afd9f2560fb8adc8f4e7b402c0719de55fa7875bd6bb098f4f4e313315af3f957b1e875b29bebcfb0570ec96"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "BSD-3-Clause",
+            "url" : "https://opensource.org/licenses/BSD-3-Clause"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.ow2.asm/asm@9.5?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://asm.ow2.io/"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://repository.ow2.org/nexus/service/local/staging/deploy/maven2"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://gitlab.ow2.org/asm/asm/issues"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "https://mail.ow2.org/wws/arc/asm/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://gitlab.ow2.org/asm/asm/"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.ow2.asm/asm@9.5?type=jar"
+    },
+    {
+      "publisher" : "OW2",
+      "group" : "org.ow2.asm",
+      "name" : "asm-commons",
+      "version" : "9.5",
+      "description" : "Usefull class adapters based on ASM, a very small and fast Java bytecode manipulation framework",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "7d1fce986192f71722b19754e4cb9e61"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "19ab5b5800a3910d30d3a3e64fdb00fd0cb42de0"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "72eee9fbafb9de8d9463f20dd584a48ceeb7e5152ad4c987bfbe17dd4811c9ae"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "6121a9d033627a33839d9bd264fce4a531b6a3f974720adc6150816f0316d1522c3d8caf7df039fdd46cb66bedd788e50f709d4a1f75d3525912ad7a4d87f7da"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "fc44e7b1c3829928712ebe4e1210e6c0407d45674ea956771f4cf11aa4341c392e0af8bd497a172d6b95af1913585a78"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "dab0aa4cc4269ce61401d33d37448ceed6d3a6e5c841e298d87e59652884157a4aa60d6f22bffd5505bb975d40da4bc8"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "eb447a2eb821fdbc15bd78b8c64a812b195ce065b8f557db13c311314e7c6104"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "03660da0336331b9d7e69d7c7fedbb9a69583fb9223b26dd5341cff78d172352d5ab93a8ee99faed63a423ee0008122f29b28e1a952c6f90c18a9da8592f45e0"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "BSD-3-Clause",
+            "url" : "https://opensource.org/licenses/BSD-3-Clause"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.ow2.asm/asm-commons@9.5?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://asm.ow2.io/"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://repository.ow2.org/nexus/service/local/staging/deploy/maven2"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://gitlab.ow2.org/asm/asm/issues"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "https://mail.ow2.org/wws/arc/asm/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://gitlab.ow2.org/asm/asm/"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.ow2.asm/asm-commons@9.5?type=jar"
+    },
+    {
+      "publisher" : "OW2",
+      "group" : "org.ow2.asm",
+      "name" : "asm-tree",
+      "version" : "9.5",
+      "description" : "Tree API of ASM, a very small and fast Java bytecode manipulation framework",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "44755681b7d6fa7143afbb438e55c20c"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "fd33c8b6373abaa675be407082fdfda35021254a"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "3c33a648191079aeaeaeb7c19a49b153952f9e40fe86fbac5205554ddd9acd94"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "816de8f84c216a7bd97b2458bde64a4b99a039b7b59fbd1ef52edf8bf869edabb93967736fe0c61e8eb3e1520e0cefe69ba59cda12df30f9f85db75fb6c064f3"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "c458228c6bfbd4369adcf8601679980438e2d406877d02bceb78ab6620d3272b65fd8b4f5e040e143b0a3c79d1cd13fb"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "60e5aec94cd96422be399d8ab3e033ec5518aab8e65849c5b900f5a2c3d963fbba6d97449a0b582b1d0128ac18e885da"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "075eaba4d7c038dd5fa0f9b78d8d3e598381b03378fa5db38153fe3577f400d8"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "ef6870e4128643c857e18e4c2d0ffd0ba93a8b448f0bc4db12d4083d6e0adcb9e47c688041f555d59a43c68348fee644070fffe2a2ef60a321d1ed8a85451257"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "BSD-3-Clause",
+            "url" : "https://opensource.org/licenses/BSD-3-Clause"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.ow2.asm/asm-tree@9.5?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://asm.ow2.io/"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://repository.ow2.org/nexus/service/local/staging/deploy/maven2"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://gitlab.ow2.org/asm/asm/issues"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "https://mail.ow2.org/wws/arc/asm/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://gitlab.ow2.org/asm/asm/"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.ow2.asm/asm-tree@9.5?type=jar"
+    },
+    {
+      "publisher" : "OW2",
+      "group" : "org.ow2.asm",
+      "name" : "asm-util",
+      "version" : "9.5",
+      "description" : "Utilities for ASM, a very small and fast Java bytecode manipulation framework",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "ad0016249fb68bb9196babefd47b80dc"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "64b5a1fc8c1b15ed2efd6a063e976bc8d3dc5ffe"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "c467f1bb3c08888f47243e2d475209b34a772d627e44fca06752e18bb038bd74"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "f68284d8f8fd029f3f428112225b2035ed3a4216cf3b34e0aacc83c32a6d44ab5e5d128b60a13ef768e3396041a62cf63f7fd3445dc5a05ce0ae03a2b2ed3080"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "4bff09bc8b3a9d3c9694110be4c2a8697b67c81f33ddc819720aca31731a1b372cf02a1af673347edcde9f6b19e2ee3f"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "713e09bfd3ea7194a16314f5e4473f0c72bef48f533ad7bdec49fdcdfc82b39d935931e9df401bef364a251c42cf2b6c"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "22ce705240cee96d5863e466462e3d52e5be05619b27d8c38190fc068d335b4a"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "4018a7679a2e2622d69ae243b954f72250d1a4a1e358810bf50a5dd100614ac732dee32482510bc2d1be5704c3a17c42bc44cc0ef06cd3f91f59f0ddbb1b34fe"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "BSD-3-Clause",
+            "url" : "https://opensource.org/licenses/BSD-3-Clause"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.ow2.asm/asm-util@9.5?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://asm.ow2.io/"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://repository.ow2.org/nexus/service/local/staging/deploy/maven2"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://gitlab.ow2.org/asm/asm/issues"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "https://mail.ow2.org/wws/arc/asm/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://gitlab.ow2.org/asm/asm/"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.ow2.asm/asm-util@9.5?type=jar"
+    },
+    {
+      "publisher" : "OW2",
+      "group" : "org.ow2.asm",
+      "name" : "asm-analysis",
+      "version" : "9.5",
+      "description" : "Static code analysis API of ASM, a very small and fast Java bytecode manipulation framework",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "4df0adafc78ebba404d4037987d36b61"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "490bacc77de7cbc0be1a30bb3471072d705be4a4"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "39f1cf1791335701c3b02cae7b2bc21057ec9a55b2240789cb6d552b2b2c62fa"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "30f1300588a0464110d7a40b07501863626ca8a9085f8ee33686f20ddc5d67e7456fd30168d7168f189142027eb6bcc1a4b9990d24e8ebeada9207ac015e2b46"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "8d14dae66467cb42758b289b7595805effbc06f2f0807ef47139ce84fad69f612ca661de877db5d047a0f5c77505a61f"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "2466d82b9ea93d2df729d4f26e9466a49def926adfd5948a260a6ef4155cacbd600c04514f30f16ab8a4fe4ea0576275"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "3769ed3203818483b1344b8796647b4897ca0dc4560a67a9e76f1e5b1df26360"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "ae7019d2fc2e600c73b6142e6c8c629eebfbc7f4cfdc923ebabd449f890587fc6aa6b59cfd7a19484df08c77edd668ebb0a9a08161d9fc88c41b16f49657c05d"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "BSD-3-Clause",
+            "url" : "https://opensource.org/licenses/BSD-3-Clause"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.ow2.asm/asm-analysis@9.5?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://asm.ow2.io/"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://repository.ow2.org/nexus/service/local/staging/deploy/maven2"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://gitlab.ow2.org/asm/asm/issues"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "https://mail.ow2.org/wws/arc/asm/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://gitlab.ow2.org/asm/asm/"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.ow2.asm/asm-analysis@9.5?type=jar"
+    },
+    {
+      "group" : "org.spark-project.spark",
+      "name" : "unused",
+      "version" : "1.0.0",
+      "description" : "Sonatype helps open source projects to set up Maven repositories on https://oss.sonatype.org/",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "763373ce9fe48581d4f2b8ffca35bb82"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "205fe37a2fade6ce6dfcf8eff57ed21a4a1c22af"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "00fd27fc9bde701581e7dcf5b95981d9e749a1c176bb8bfcd49f675768ff6bf0"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "08a6ac8d2dc9d89ff557c7e96096c76e687efe3ce166aa6dbb76865bbef64dc8b6ecb5561ef03c2451a688ccdb3876b8f16b9137d02c290a698e917a5656b6fa"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "c8c51d0d851835107db273d7ce522f026587d922c9d1d34739c3dedf9b7737c1c491e961dc7931f46c476d28acbc91f6"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "49f87e8e11e7a4d9da068d33185a89bb8e7eef339a0e2932246acbaa8ad90a30ec353e9e71147a78a8b74dfe4bdd3a3b"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "a943ae35f4d584810323330b6ef241a869b0187e4d3dfd79f8e504ebb0882cf2"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "1e7845ca316f39bc5ffc75afe0dcb437fe13b8c2133a396824dec8f3a5bd56243086989264f8f40df4cb2ba749709e3a90cdceb39c05727cbd82d86570e4f57d"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.spark-project.spark/unused@1.0.0?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://nexus.sonatype.org/oss-repository-hosting.html/unused"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.spark-project.spark/unused@1.0.0?type=jar"
+    }
+  ],
+  "dependencies" : [
+    {
+      "ref" : "pkg:maven/org.apache.spark/spark-tools_2.12@3.5.0-SNAPSHOT?type=jar",
+      "dependsOn" : [
+        "pkg:maven/org.scala-lang/scala-reflect@2.12.17?type=jar",
+        "pkg:maven/org.scala-lang/scala-compiler@2.12.17?type=jar",
+        "pkg:maven/org.clapper/classutil_2.12@1.5.1?type=jar",
+        "pkg:maven/org.ow2.asm/asm@9.5?type=jar",
+        "pkg:maven/org.ow2.asm/asm-commons@9.5?type=jar",
+        "pkg:maven/org.ow2.asm/asm-util@9.5?type=jar",
+        "pkg:maven/org.spark-project.spark/unused@1.0.0?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/org.scala-lang/scala-reflect@2.12.17?type=jar",
+      "dependsOn" : [
+        "pkg:maven/org.scala-lang/scala-library@2.12.17?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/org.scala-lang/scala-library@2.12.17?type=jar",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/org.scala-lang/scala-compiler@2.12.17?type=jar",
+      "dependsOn" : [
+        "pkg:maven/org.scala-lang/scala-library@2.12.17?type=jar",
+        "pkg:maven/org.scala-lang/scala-reflect@2.12.17?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/org.clapper/classutil_2.12@1.5.1?type=jar",
+      "dependsOn" : [
+        "pkg:maven/org.scala-lang/scala-library@2.12.17?type=jar",
+        "pkg:maven/org.clapper/grizzled-scala_2.12@4.9.3?type=jar",
+        "pkg:maven/org.scala-lang.modules/scala-collection-compat_2.12@2.0.0?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/org.clapper/grizzled-scala_2.12@4.9.3?type=jar",
+      "dependsOn" : [
+        "pkg:maven/org.scala-lang/scala-library@2.12.17?type=jar",
+        "pkg:maven/org.scala-lang.modules/scala-collection-compat_2.12@2.0.0?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/org.scala-lang.modules/scala-collection-compat_2.12@2.0.0?type=jar",
+      "dependsOn" : [
+        "pkg:maven/org.scala-lang/scala-library@2.12.17?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/org.ow2.asm/asm@9.5?type=jar",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/org.ow2.asm/asm-commons@9.5?type=jar",
+      "dependsOn" : [
+        "pkg:maven/org.ow2.asm/asm@9.5?type=jar",
+        "pkg:maven/org.ow2.asm/asm-tree@9.5?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/org.ow2.asm/asm-tree@9.5?type=jar",
+      "dependsOn" : [
+        "pkg:maven/org.ow2.asm/asm@9.5?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/org.ow2.asm/asm-util@9.5?type=jar",
+      "dependsOn" : [
+        "pkg:maven/org.ow2.asm/asm@9.5?type=jar",
+        "pkg:maven/org.ow2.asm/asm-tree@9.5?type=jar",
+        "pkg:maven/org.ow2.asm/asm-analysis@9.5?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/org.ow2.asm/asm-analysis@9.5?type=jar",
+      "dependsOn" : [
+        "pkg:maven/org.ow2.asm/asm-tree@9.5?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/org.spark-project.spark/unused@1.0.0?type=jar",
+      "dependsOn" : [ ]
+    }
+  ]
+}

@@ -1,0 +1,1245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bom serialNumber="urn:uuid:581103d4-8b5e-4b6d-aeb8-d129e3836977" version="1" xmlns="http://cyclonedx.org/schema/bom/1.4">
+  <metadata>
+    <timestamp>2023-06-17T15:12:03Z</timestamp>
+    <tools>
+      <tool>
+        <vendor>OWASP Foundation</vendor>
+        <name>CycloneDX Maven plugin</name>
+        <version>2.7.9</version>
+        <hashes>
+          <hash alg="MD5">8e595cdb67f17e4b41e046456970591d</hash>
+          <hash alg="SHA-1">69e8ca804520d09ce4657e7235bae84d01cbffa6</hash>
+          <hash alg="SHA-256">aa09074fe5aa403c008cd4fc7ef8ce41cd244489337f16b3e91a3914158a4db8</hash>
+          <hash alg="SHA-512">1488a8112da8e675813d7585f57c5efb178aed32901118186ee12d0e4ae3d19c53774c7f860bf70d17d70f050119b69443a2637cf641675b4b5d9cdcdd69b89b</hash>
+          <hash alg="SHA-384">b097295dfbf10887abc6eec58d4d0822cde5a73d1f5c1cf183a57bf569016ad5ced9d34efae3e574d82bb62837540c6c</hash>
+          <hash alg="SHA3-384">289f9520bd73a2031276248a6ef8f0891c691062c2d1ea86a2bc9ea8db2c52377d92a53be9957179e71aee3deda26a8c</hash>
+          <hash alg="SHA3-256">32b50a7efe5d491a4039c0017eca3cf49d98b55fc66d06b3dd06209487323474</hash>
+          <hash alg="SHA3-512">1daf813da53e5d5cda4d0302ff3a5e388aa45d96ebe6dcbe240f35d33f14b1e6390f6bbe7f21f3ed8cf96ebd9f5516a08b18487b7339715109c81cebfc1563df</hash>
+        </hashes>
+      </tool>
+    </tools>
+    <component type="library" bom-ref="pkg:maven/org.apache.spark/spark-network-shuffle_2.12@3.5.0-SNAPSHOT?type=jar">
+      <publisher>Apache Software Foundation</publisher>
+      <group>org.apache.spark</group>
+      <name>spark-network-shuffle_2.12</name>
+      <version>3.5.0-SNAPSHOT</version>
+      <description>The Apache Software Foundation provides support for the Apache community of open-source software projects.
+    The Apache projects are characterized by a collaborative, consensus based development process, an open and
+    pragmatic software license, and a desire to create high quality software that leads the way in its field.
+    We consider ourselves not simply a group of projects sharing a server, but rather a community of developers
+    and users.</description>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.apache.spark/spark-network-shuffle_2.12@3.5.0-SNAPSHOT?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://spark.apache.org/</url></reference><reference type="distribution"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference><reference type="issue-tracker"><url>https://issues.apache.org/jira/browse/SPARK</url></reference><reference type="mailing-list"><url>dev-subscribe@spark.apache.org</url></reference><reference type="vcs"><url>scm:git:git@github.com:apache/spark.git/common/spark-network-shuffle_2.12</url></reference></externalReferences>
+    </component>
+    <properties>
+      <property name="maven.goal">makeBom</property>
+      <property name="maven.scopes">compile,provided,runtime,system</property>
+    </properties>
+  </metadata>
+  <components>
+    <component type="library" bom-ref="pkg:maven/org.apache.spark/spark-network-common_2.12@3.5.0-SNAPSHOT?type=jar">
+      <publisher>Apache Software Foundation</publisher>
+      <group>org.apache.spark</group>
+      <name>spark-network-common_2.12</name>
+      <version>3.5.0-SNAPSHOT</version>
+      <description>The Apache Software Foundation provides support for the Apache community of open-source software projects.
+    The Apache projects are characterized by a collaborative, consensus based development process, an open and
+    pragmatic software license, and a desire to create high quality software that leads the way in its field.
+    We consider ourselves not simply a group of projects sharing a server, but rather a community of developers
+    and users.</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="MD5">9e7895a4194dd892c317eecc7afe9f1e</hash>
+        <hash alg="SHA-1">f40a83bcd3ffab412bf9165231821c052658f00c</hash>
+        <hash alg="SHA-256">856068d7852071e69b9e41acfbff2b52d599c629881a64834212e19c73044559</hash>
+        <hash alg="SHA-512">86bbc25380e7174e4d37ffe8ba2c4a6d78af2288aca62ba174e4a4cd8544e86aa454701572059d10719a0588f679a2a57a55d0b591a5e4c9a01489f076d887f6</hash>
+        <hash alg="SHA-384">c71864dc985a56c28af6f3ecefed560e4b612fa41b3e524008bbdcbfe74dbe3ce9a9710ae06ae8b8a962da1f7e2d07f2</hash>
+        <hash alg="SHA3-384">d187145e8684953c8306af3ebe8e55b5d14c342901f6730480659a018f9f32ce206c81af7ec93fb4eadb2df4ca37485b</hash>
+        <hash alg="SHA3-256">8494f0b85665eacbb5347d909b59af391938ed673be1af52b1eef0ec9b9e15ec</hash>
+        <hash alg="SHA3-512">9f094817f37c871cef458c561bf628c79f6a1a5a914c28b200bf9e4d894b176c07535007b0e886b98704e64deecd5a73383b0def4f1868e7426cdcb309dd1866</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.apache.spark/spark-network-common_2.12@3.5.0-SNAPSHOT?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://spark.apache.org/</url></reference><reference type="distribution"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference><reference type="issue-tracker"><url>https://issues.apache.org/jira/browse/SPARK</url></reference><reference type="mailing-list"><url>dev-subscribe@spark.apache.org</url></reference><reference type="vcs"><url>scm:git:git@github.com:apache/spark.git/common/spark-network-common_2.12</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.scala-lang/scala-library@2.12.17?type=jar">
+      <publisher>LAMP/EPFL</publisher>
+      <group>org.scala-lang</group>
+      <name>scala-library</name>
+      <version>2.12.17</version>
+      <description>Standard library for the Scala Programming Language</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="MD5">1b31b3bd2d82c3ad05895815423e0caf</hash>
+        <hash alg="SHA-1">4a4dee1ebb59ed1dbce014223c7c42612e4cddde</hash>
+        <hash alg="SHA-256">7eefde7e3cc1937f78dc13b9e6c00746f602cff6f5621d62df2c24d922619fe0</hash>
+        <hash alg="SHA-512">31a05fdabb79470122abdf184defbc21bb713e1bef57014e187b3165a0630ae901a7dc86ce5312a48bd7b7e215e4226a9b04807e3a6a1a44099f174c46df0bba</hash>
+        <hash alg="SHA-384">269c694c2467ea1fa2effba54d59efa5ee806f2eb68dba97398977d28b6bad3c19796f0e43309ea64942fb750ba81754</hash>
+        <hash alg="SHA3-384">f1743f62c50219057d97f9832d4e82f831d36eeacaf9ed9aa403ba8f838833e279c871f33ce8e2c9d21ba88a05c742b1</hash>
+        <hash alg="SHA3-256">83c8eb1e819e12715d2b76abb987b19bdaa4f71dac61b398dc7aff9bc87c2339</hash>
+        <hash alg="SHA3-512">a70056828f6a2fcecfaea4776f64e823d5962ac4144dd11277417e68e059b5abe4cb11e3ad1df8f7cb7c21d6ba9f35963519670c15dd6f840cbf57c61f2ca236</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+          <url>https://www.apache.org/licenses/LICENSE-2.0</url>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.scala-lang/scala-library@2.12.17?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://www.scala-lang.org/</url></reference><reference type="issue-tracker"><url>https://github.com/scala/bug/issues</url></reference><reference type="vcs"><url>https://github.com/scala/scala</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/io.netty/netty-all@4.1.92.Final?type=jar">
+      <group>io.netty</group>
+      <name>netty-all</name>
+      <version>4.1.92.Final</version>
+      <description>Netty is an asynchronous event-driven network application framework for
+    rapid development of maintainable high performance protocol servers and
+    clients.</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="MD5">b9144476b1d819e0eb5b6ef5c1b4f8c3</hash>
+        <hash alg="SHA-1">3af6c651f6fdd1d7ed49a27ad59397c75af3d278</hash>
+        <hash alg="SHA-256">9fab2e80f4261e22071b61af8dcf35d0c831bb985279a154f6eaff70d0bd993c</hash>
+        <hash alg="SHA-512">784d37a2baf751446b9c868577f87b70f1ee7586f6038526420281a610f57708f4c192d5bd434fe93eb7ae8bb16a2012cf9ecf2b1fa4755a4c45de0d58ce2c76</hash>
+        <hash alg="SHA-384">5b0262fafbf574f484676e14a5cbcc45b86f110e1a5a0201f3e908a69485dbb4075591c4f743ee4219f97503d853f96e</hash>
+        <hash alg="SHA3-384">e9c778a4699fefcbe25bd518b9ce521ae3b5dbae79dff3fba52811792fc7b0d0794b3977c44e6291a73ac37f9e05a951</hash>
+        <hash alg="SHA3-256">e7d7913bdc66af614674d15b640edf76220ff55117e4b9a1c1c3bfaf64a1d66f</hash>
+        <hash alg="SHA3-512">ef1b04db5e7838c7477b653ef6e3ea41290c8982345ce202bc1bdabe4a24523206bfc0fea135bf7f4fa66839b1e449788b447306ac2fec6d7e2ca379a0109745</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/io.netty/netty-all@4.1.92.Final?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://netty.io/netty-all/</url></reference><reference type="vcs"><url>https://github.com/netty/netty/netty-all</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/io.netty/netty-buffer@4.1.92.Final?type=jar">
+      <publisher>The Netty Project</publisher>
+      <group>io.netty</group>
+      <name>netty-buffer</name>
+      <version>4.1.92.Final</version>
+      <description>Netty is an asynchronous event-driven network application framework for
+    rapid development of maintainable high performance protocol servers and
+    clients.</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="MD5">4d6fdf332129212a3b18cbe60b2371bf</hash>
+        <hash alg="SHA-1">5ff1ba7ec68c20e635fc0f2b792c38c951f688d6</hash>
+        <hash alg="SHA-256">5cebefe2195fa4531834363454c79c7675551518ca236b64089c403da7967770</hash>
+        <hash alg="SHA-512">98036bcb8de328db5003eea52a6a34251b6e80ae961fb61324bbef439f04ab38f4dbba35270a4f5fddc4e877b8afbf095d7b7eb727edcc1914817ff18e370e1a</hash>
+        <hash alg="SHA-384">2585cf91c72a1171230d31724452cdc079a473ff218765348082fa4fa2651da8b956324a3993af78cb789cea3788f8e7</hash>
+        <hash alg="SHA3-384">3fe3cd16cf3863998e5a6da1743eaae41691bfbe39bbaf03cd735c6f92625612f6394df6b22cb3fb5547b9483e584c04</hash>
+        <hash alg="SHA3-256">09324991560cb4f50e95ddd22e524e2377f1e06d073e6bae2d722e4fe28f42c6</hash>
+        <hash alg="SHA3-512">a719b450ac51b576cb1996d36ab6cdfa50795125772ba0904d65425e85e574192025ced4bc234ea6f738ba38de621b134e1f62b1a423b363f5bc06b2a694148a</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/io.netty/netty-buffer@4.1.92.Final?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://netty.io/netty-buffer/</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="vcs"><url>https://github.com/netty/netty/netty-buffer</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/io.netty/netty-codec@4.1.92.Final?type=jar">
+      <publisher>The Netty Project</publisher>
+      <group>io.netty</group>
+      <name>netty-codec</name>
+      <version>4.1.92.Final</version>
+      <description>Netty is an asynchronous event-driven network application framework for
+    rapid development of maintainable high performance protocol servers and
+    clients.</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="MD5">b9df9a5be912653a43025df0ffa6f943</hash>
+        <hash alg="SHA-1">9496b3d59290edcc6480cbe064f33560873f7484</hash>
+        <hash alg="SHA-256">fc8a9a9140da01c7e9193f3cf85040b4533059f151a048d4175d4476559f6751</hash>
+        <hash alg="SHA-512">c67f2560cfe3d61d127e1a7008bb218647c2e2f0e93b2a5b8fec1485c548d2e2236618e9fdf0b1c9f8151ed4a1965515af56176c9a2a888c17e8263bbb9009e5</hash>
+        <hash alg="SHA-384">fafee0ec35d3de0dce96fec973ac1ca41fea71f09dc0281954d7b5525774144df73506c3c7f263543bf3d3c2debcd547</hash>
+        <hash alg="SHA3-384">102a6fdc9d778b5da49c96cdb39fca8901f3e14a323127e2da3da3c4f6feee7b49e836422a6757f6d4e0703411b33dca</hash>
+        <hash alg="SHA3-256">0937d67c810dba79eb4ee959c827862d0e17b413651f6f5b39ede712215070d4</hash>
+        <hash alg="SHA3-512">1c7f6044120f4564a9ca06eb5451392dfaedffd819c101908bf6d091050f01091e6594886c7bd33a0154672a590731902643941a4f7a03c6ae2f20dca31fd976</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/io.netty/netty-codec@4.1.92.Final?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://netty.io/netty-codec/</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="vcs"><url>https://github.com/netty/netty/netty-codec</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/io.netty/netty-codec-http@4.1.92.Final?type=jar">
+      <publisher>The Netty Project</publisher>
+      <group>io.netty</group>
+      <name>netty-codec-http</name>
+      <version>4.1.92.Final</version>
+      <description>Netty is an asynchronous event-driven network application framework for
+    rapid development of maintainable high performance protocol servers and
+    clients.</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="MD5">85d913ba656428a42bc859894cd745f2</hash>
+        <hash alg="SHA-1">b91f907a19c6bfb318077951eb28a3dbee8f41fd</hash>
+        <hash alg="SHA-256">ab051c87d46c32b5e9e486e611240358d2dfa5e9af8541b6cb476a09ddc5e548</hash>
+        <hash alg="SHA-512">0b646e4d46fe84c8f32cf535081e51812d8954ef86414bc61f34eebf497a748deb94776a15626110ddcfdbc1ee69e1bbf88d429bbd78489739c6067e979a6afb</hash>
+        <hash alg="SHA-384">85d91678a592dc7f9222b71cba0b15053aac977c3440d1d2985a266ee4f83ef595bd9b501b28e9a2d99238e6eef51dc0</hash>
+        <hash alg="SHA3-384">9094ea0df5148fa3aac0eb0343ac40149fdf61a940bfdfe1e1119c998e948747cfa04d50d93ca0e3c2409d7c256fb177</hash>
+        <hash alg="SHA3-256">4885a05f8364a1905519a05f69e1bb96915ce0dd779dcbc39699f8e67b900a94</hash>
+        <hash alg="SHA3-512">526a8f2fba0b64a09562ed8df73754b33ac6df87f96b74e5b47a67fb53d59bddf3d3398279141fe264d31b55145ab255f1587ccc38e09d832085798863f00401</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/io.netty/netty-codec-http@4.1.92.Final?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://netty.io/netty-codec-http/</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="vcs"><url>https://github.com/netty/netty/netty-codec-http</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/io.netty/netty-codec-http2@4.1.92.Final?type=jar">
+      <publisher>The Netty Project</publisher>
+      <group>io.netty</group>
+      <name>netty-codec-http2</name>
+      <version>4.1.92.Final</version>
+      <description>Netty is an asynchronous event-driven network application framework for
+    rapid development of maintainable high performance protocol servers and
+    clients.</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="MD5">34fcecd3f55ef1a837474f5b989cbf33</hash>
+        <hash alg="SHA-1">65afd3b26bf167c6e31fa179933fd437a64d0b5f</hash>
+        <hash alg="SHA-256">ecc4d08610f28a6848ece4a78aba637e0854eba6e95db8e2099bdef166771fc3</hash>
+        <hash alg="SHA-512">443f5cb0847b912a881645fb1d60dfa227ea3075b47e1ae66699681af10b2f26e3c9aec496dc6901d811159d3c549110772bf8185774ea8f60daa0525bdfd579</hash>
+        <hash alg="SHA-384">57f933014b7ce7f3b4e306bc03e1b66a15cf861ff7f1072f3535c9cff3fde982df8e293501a99274764fd1d0f271376d</hash>
+        <hash alg="SHA3-384">92602a391852bd1cf515db1b06102291187c9b87cb9721fac371991ee5f2b841ae00257910b4d39a34f710388a8a4f1e</hash>
+        <hash alg="SHA3-256">186e14bd14d4bcd3eae309e55038a8c6fce7c7b644161f6eb0ea6a10f3c7e736</hash>
+        <hash alg="SHA3-512">b9cba57382bdc42c4d5790604082a00326f115897f0f585291182a28887a7f796ad81e946509d244e970b6d09cae8e9d1889a38b63a7b9c5d800b2b0c540aacb</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/io.netty/netty-codec-http2@4.1.92.Final?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://netty.io/netty-codec-http2/</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="vcs"><url>https://github.com/netty/netty/netty-codec-http2</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/io.netty/netty-codec-socks@4.1.92.Final?type=jar">
+      <publisher>The Netty Project</publisher>
+      <group>io.netty</group>
+      <name>netty-codec-socks</name>
+      <version>4.1.92.Final</version>
+      <description>Netty is an asynchronous event-driven network application framework for
+    rapid development of maintainable high performance protocol servers and
+    clients.</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="MD5">4f862c271561e3c512ffcf083e23d46c</hash>
+        <hash alg="SHA-1">ae1daa774f14a4cd9ce87465018ca961357ee8d3</hash>
+        <hash alg="SHA-256">857480b6dea52543851d638d65cc9c2ba85b85bcd2862797a730990d570b4c75</hash>
+        <hash alg="SHA-512">ab39181d252124266cf6d928dc5df2fad175bd82e7df34495d83edf3119ba279676be2205bc34e7c3de0dabcf0f9628f13da2d1a7710a4ed1b02cea875671a10</hash>
+        <hash alg="SHA-384">5d3574808f7df4f6d8a5bd61232a547c5cde8924ded5f81afa869101d17c60ef7e51510584d6069c12466a4c30ebbd7a</hash>
+        <hash alg="SHA3-384">8d97ff63f81c6ed15a35d1302017f7d96d30b28db9f1059aeda670b4284b45c62c382a65915bcf391dcdf2d4ebe4a4ba</hash>
+        <hash alg="SHA3-256">ad3c81d618c38bca7ff39db66d1ce0792cdc758ee8f0532a95f012bb9ddfb49f</hash>
+        <hash alg="SHA3-512">397c2d09964df7f5164012b83c1fa033eaa7e6a43493e360fcacb1b7e027eabbabf991da67b67066716ef8cc4c6c545406f1cec7d88a76a0a95ecdd3e4e744dd</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/io.netty/netty-codec-socks@4.1.92.Final?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://netty.io/netty-codec-socks/</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="vcs"><url>https://github.com/netty/netty/netty-codec-socks</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/io.netty/netty-common@4.1.92.Final?type=jar">
+      <publisher>The Netty Project</publisher>
+      <group>io.netty</group>
+      <name>netty-common</name>
+      <version>4.1.92.Final</version>
+      <description>Netty is an asynchronous event-driven network application framework for
+    rapid development of maintainable high performance protocol servers and
+    clients.</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="MD5">6c26d33a7d45cebf297d6e72fae653c8</hash>
+        <hash alg="SHA-1">66133f9ad31816a227acf3030632903cb9e4c5a2</hash>
+        <hash alg="SHA-256">af8c57741fb54606de9090b133b5c0f82f2a5a9408c1ae3c2d8fadb9aca1540e</hash>
+        <hash alg="SHA-512">790d7c91b9b602beb44a534d48c058d81c75c1935401bd314a57dc7061c65ca31cb27390223d315bfaa578caa0a531a1b5a1ed294b27c17a4dde0621b46e6cf1</hash>
+        <hash alg="SHA-384">dc598e98e3a5ea45685a76f4bacacd4063583c5e288d7db999115a4f4a2b3474322045d0aadc19e03ac3b2ee62ee94be</hash>
+        <hash alg="SHA3-384">e058dd475db6be7e9873078dd2656b45068737be95f1468ca2486ba463d4dc1fbe23554e7ff792a230be477246e79dab</hash>
+        <hash alg="SHA3-256">88aa5d20f4f257e10f35306748a6819a122c4d57730ac687c16b25bf2034e85d</hash>
+        <hash alg="SHA3-512">5357ce30a22ab63963483194910a4f44a78ef45f22496fb1e61defc765ae77c1b777ff9f4582ec9e81c91c5823009034019123b869a00cf4d40a53495512dd4f</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/io.netty/netty-common@4.1.92.Final?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://netty.io/netty-common/</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="vcs"><url>https://github.com/netty/netty/netty-common</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/io.netty/netty-handler@4.1.92.Final?type=jar">
+      <publisher>The Netty Project</publisher>
+      <group>io.netty</group>
+      <name>netty-handler</name>
+      <version>4.1.92.Final</version>
+      <description>Netty is an asynchronous event-driven network application framework for
+    rapid development of maintainable high performance protocol servers and
+    clients.</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="MD5">510a38060f2c48e125e8b96e1e36f42a</hash>
+        <hash alg="SHA-1">d8e961d89a966c0cdea88105bbb2353408a41d12</hash>
+        <hash alg="SHA-256">d2c3c17879f3619a216307644b10daeeddab1b04a1287dff50674a87da1443b2</hash>
+        <hash alg="SHA-512">c87b714f9b53cac9610601d9f0c4f113d8508ed699dc2b2b52875292a6da247b0b977fb001433a68c246bb254e477861734c645c0e56e73750bc809d2d90d62b</hash>
+        <hash alg="SHA-384">6b5d49007367fe0beace1799ef349091af07b35684fc3078cee73a23c992b4b86bc3ce48937939a2633dcbaa0e6a9c90</hash>
+        <hash alg="SHA3-384">af9fb0f7bfe23f89c979eddf73f6b2c0063a2fc0f981438641d122733fe317e6c2594229edc1d1993764f4d765a42cfb</hash>
+        <hash alg="SHA3-256">9e8143701ca904344e41e56e1010747de918894c254b115f5adc8a7c0c2c8bfa</hash>
+        <hash alg="SHA3-512">c8446fce9c7a154a72028109c3095be4b4f2dff80ca0922ca50a0d6abd4a9384d7482a660e230d8c6f3531d2d9fb4f386c4e3cba34afe9d539ccf2d8d9b8f064</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/io.netty/netty-handler@4.1.92.Final?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://netty.io/netty-handler/</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="vcs"><url>https://github.com/netty/netty/netty-handler</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/io.netty/netty-transport-native-unix-common@4.1.92.Final?type=jar">
+      <publisher>The Netty Project</publisher>
+      <group>io.netty</group>
+      <name>netty-transport-native-unix-common</name>
+      <version>4.1.92.Final</version>
+      <description>Static library which contains common unix utilities.</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="MD5">41bffe118d717445e3fd8f1e4d8d8f51</hash>
+        <hash alg="SHA-1">22364cca56b752abb49fb7972f0f6299b8d6be98</hash>
+        <hash alg="SHA-256">b37b9b1b7ef5cf5626d92d391de5422d5fd5a1816193447ee7bb61c70aa2db31</hash>
+        <hash alg="SHA-512">ae174a107b7e9a180e4fbe239a4625d423c91f485a11f673ee30f36dc5f1a8bd4381826414f28777a3d99eacc9c5ecf60efc6c42c19770518e290346d300e630</hash>
+        <hash alg="SHA-384">1ea739ad0be7ce06311d17ecac31567d507215afd72d7dd40e18b1678b525fb31cba5416d00bfc43d1cb54b059060355</hash>
+        <hash alg="SHA3-384">dce728212b303d9d1610e4da6842fcd0c22cff925ab2944834d39f048dbaef538e467f495bbac9d05cfc8b0c11b5b6f9</hash>
+        <hash alg="SHA3-256">067964aa1ce3841cd154396a799dc4b3daf750c9a5ddb93db84bec7dbc9733df</hash>
+        <hash alg="SHA3-512">1c41cd130a027bfba8bcdb01dbd4c77aa515ffb9c639b901cfbcdec73ee27864e4cc8cca5136ce684c678e0f77469af9e925b4d047922d1abea6e70b3e34a56e</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/io.netty/netty-transport-native-unix-common@4.1.92.Final?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://netty.io/netty-transport-native-unix-common/</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="vcs"><url>https://github.com/netty/netty/netty-transport-native-unix-common</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/io.netty/netty-handler-proxy@4.1.92.Final?type=jar">
+      <publisher>The Netty Project</publisher>
+      <group>io.netty</group>
+      <name>netty-handler-proxy</name>
+      <version>4.1.92.Final</version>
+      <description>Netty is an asynchronous event-driven network application framework for
+    rapid development of maintainable high performance protocol servers and
+    clients.</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="MD5">29cf28c5b7b8177d4ec6151fb18d501c</hash>
+        <hash alg="SHA-1">d29ed946518e608e7e18225ee05a23c77c2dee82</hash>
+        <hash alg="SHA-256">ab40209bda5ae255667da6978eb7f8b6283424f892896b6461e256499ad0cbfa</hash>
+        <hash alg="SHA-512">47c6b815e5545d54b38c2c95979208055c3da0bb6583a8150ccb070359d9715e3a301bb34f6b6a9edfe42bade896477a66571e61a01ee65ffb87fc991adaeefb</hash>
+        <hash alg="SHA-384">c22a2c0e0476a3ca9c2c74832db227edf931c142c8ad367b04fc637e3d474d9ff4a0e25955bd1e04023499a6e11cb335</hash>
+        <hash alg="SHA3-384">6cb8ba19fa5719ab5567cfc334efcd658134f38a61d376c1640dd87ad4427791feea670795f5e87ed574ae13e8545cd0</hash>
+        <hash alg="SHA3-256">3c76475c71804bee2d71347402f3703f456f9ac8e7b83af96e1904506c6face3</hash>
+        <hash alg="SHA3-512">4d67493382a497aef4d681c9458b8818e1e9dd7817f18dbd24358d178a267ebde066b0414321a16be699387b2d39ee7fe5b5978c0a16c717a282de1845e50225</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/io.netty/netty-handler-proxy@4.1.92.Final?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://netty.io/netty-handler-proxy/</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="vcs"><url>https://github.com/netty/netty/netty-handler-proxy</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/io.netty/netty-resolver@4.1.92.Final?type=jar">
+      <publisher>The Netty Project</publisher>
+      <group>io.netty</group>
+      <name>netty-resolver</name>
+      <version>4.1.92.Final</version>
+      <description>Netty is an asynchronous event-driven network application framework for
+    rapid development of maintainable high performance protocol servers and
+    clients.</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="MD5">3fddfe96cc70b146960cd5e6f7d5021c</hash>
+        <hash alg="SHA-1">fe96e210a4e139cb043d26702792b6098b93b13f</hash>
+        <hash alg="SHA-256">4941773858f3fddb84c7c6d2cc67cf0c4c991fc3eb8a608916d9982e6997ad4d</hash>
+        <hash alg="SHA-512">58d60acd35e69e2bc1f5d4da567478da78920a27ed767c2a361f8a730cc29379fb3e92006ad15a29b3d33bc938d8efd6a180269139699709eb0a911fdbd7d4c1</hash>
+        <hash alg="SHA-384">7f8df1f8dd6b12ea778f696dd6bbc94ce0a1855d9676a6f860e22b820b326291786c6c48ea9f7fa899f1df7e5e7191c2</hash>
+        <hash alg="SHA3-384">887fa474729b6138be2df7ad09ac6a3f40eb435e2d6efd8817fb6ee7dc78a5409bb87307a9a8e511ca0e729ab227f7ef</hash>
+        <hash alg="SHA3-256">363a80b57c3cc9563f1c5e020e7c284e1c286235d349eb55109c1ef57788ab00</hash>
+        <hash alg="SHA3-512">958c3b742db6b400a815bea97d1cc2d936daa67127fd7469546ae752fc4481912bb7564454e16273d91027b307685ea90e6e0f4c7e6e680cb882ebac52bf1ba9</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/io.netty/netty-resolver@4.1.92.Final?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://netty.io/netty-resolver/</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="vcs"><url>https://github.com/netty/netty/netty-resolver</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/io.netty/netty-transport@4.1.92.Final?type=jar">
+      <publisher>The Netty Project</publisher>
+      <group>io.netty</group>
+      <name>netty-transport</name>
+      <version>4.1.92.Final</version>
+      <description>Netty is an asynchronous event-driven network application framework for
+    rapid development of maintainable high performance protocol servers and
+    clients.</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="MD5">6795569a68b81b09699a1eea5b7739c4</hash>
+        <hash alg="SHA-1">e0cf483b7c04af7207c02a6ff0c861592b09c97a</hash>
+        <hash alg="SHA-256">7474e5e27a4f908a003ace4965964ccdb6f8cca202b180ea20fccafebe57ca99</hash>
+        <hash alg="SHA-512">8f41f12e951dfc7cd4cef38bf3d0cce7926093c02099d046942020caffad58d186205a29a01a2b6bd4c0ece62003da7d0f56d13a71a13665f768c41178cf85b8</hash>
+        <hash alg="SHA-384">265bc42f65e2814492f1c6d687cb09b8467fbb45328bb37ed008d05f265ad24c06cd249d417eda94b4e68f60463b3e59</hash>
+        <hash alg="SHA3-384">a988f7b7832d8e4234a31471106c3fc74b63b6e19b5c5b60109ce286029f7e8e101706b5b4646aeda7467a96ebb93e38</hash>
+        <hash alg="SHA3-256">8ae1197703c7ee09beac92010f625583ab9d36ecd5d1906d637521edede2fece</hash>
+        <hash alg="SHA3-512">d3177d9768f788e1cc3272ed0a6b1ac99a7908e4b5389491ca013d0c718878d6ff137973d71f3434db0e4d73ad530cb8215261b6a9c4c70449aa829f9502737f</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/io.netty/netty-transport@4.1.92.Final?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://netty.io/netty-transport/</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="vcs"><url>https://github.com/netty/netty/netty-transport</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/io.netty/netty-transport-classes-epoll@4.1.92.Final?type=jar">
+      <publisher>The Netty Project</publisher>
+      <group>io.netty</group>
+      <name>netty-transport-classes-epoll</name>
+      <version>4.1.92.Final</version>
+      <description>Netty is an asynchronous event-driven network application framework for
+    rapid development of maintainable high performance protocol servers and
+    clients.</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="MD5">b6af98d8bdd06bcaf3a9ad22702cb3b3</hash>
+        <hash alg="SHA-1">ca149d6a9a028eafcd6b45e3884529d04628fe64</hash>
+        <hash alg="SHA-256">873bfefc23e9f02bbb5723f6dd01973878087c368b7f42833308965fb1869360</hash>
+        <hash alg="SHA-512">7eda01da494932cb03c3d3892290f7fccabd533c841f85e3cca9a66e5bfeb29165301e2710f67625d83049c81809907cfaf195fa09c340976f02e9cb0dc5c1aa</hash>
+        <hash alg="SHA-384">164db4221cb9f5df01c76eaf546508f9834011a40e10e5a906c3a6e73f68ddfb51dd2451e5c0922ab60258397c46037c</hash>
+        <hash alg="SHA3-384">8d35d0853d34a663651a1115855dc19739d4f25421ca391f921f013ae42054065c435e463327cb3aedbdc38f2e06fd3c</hash>
+        <hash alg="SHA3-256">86425332f188f0bade9eb24d43304629c623f2c236f6def1cb1f0eaa29be9283</hash>
+        <hash alg="SHA3-512">910e52e8eeca86fa57968dd9536bb2d5a20bdf1f0889f0fc0c995b282a7a2c0ba6ee0eeea722b599cbcfb147c78807638ca93bb6be975fd35c3d624b226a7df0</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/io.netty/netty-transport-classes-epoll@4.1.92.Final?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://netty.io/netty-transport-classes-epoll/</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="vcs"><url>https://github.com/netty/netty/netty-transport-classes-epoll</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/io.netty/netty-transport-classes-kqueue@4.1.92.Final?type=jar">
+      <publisher>The Netty Project</publisher>
+      <group>io.netty</group>
+      <name>netty-transport-classes-kqueue</name>
+      <version>4.1.92.Final</version>
+      <description>Netty is an asynchronous event-driven network application framework for
+    rapid development of maintainable high performance protocol servers and
+    clients.</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="MD5">a4f55d62594ad25916062394d3c4f944</hash>
+        <hash alg="SHA-1">eba77dc5bf182acff1db9cef44c423f60aae3468</hash>
+        <hash alg="SHA-256">4f3a1307fb606340730a424d0e179e6d182ea8642fdb99d2d944ab0e3d71b237</hash>
+        <hash alg="SHA-512">17302b724fb6454087b10e0e6de782ac5df6b1147db5e58c4f93e612a71d0b2f6809749d97b71d529db8e610b7e565121134d28f09daeaf7af3db3c739894872</hash>
+        <hash alg="SHA-384">bda5d1fa69c090d4f50bf368c6c0e8f12f374be8889a666ccca27e4e375e1f6cc8e4dd7dd4fcd30a68310eaab2eed916</hash>
+        <hash alg="SHA3-384">7ea07b7752c5a1183606480839cf683a3d022b506d2c65a009922aaa6aa78494d21d37301b64ee87a5c65f2643748966</hash>
+        <hash alg="SHA3-256">1a7052554285d1ae2a342c750098bc42adbd82985d030fdff8004712fab31bdd</hash>
+        <hash alg="SHA3-512">eff03704f0851fff66baa0bdf699ebf5116679544be55baafef7ec1be3c65e842634dd51581ea7e075a4657bc09083f2c3b40e15f109038618e5ca8894ee585a</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/io.netty/netty-transport-classes-kqueue@4.1.92.Final?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://netty.io/netty-transport-classes-kqueue/</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="vcs"><url>https://github.com/netty/netty/netty-transport-classes-kqueue</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/io.netty/netty-transport-native-epoll@4.1.92.Final?classifier=linux-x86_64&amp;type=jar">
+      <publisher>The Netty Project</publisher>
+      <group>io.netty</group>
+      <name>netty-transport-native-epoll</name>
+      <version>4.1.92.Final</version>
+      <description>Netty is an asynchronous event-driven network application framework for
+    rapid development of maintainable high performance protocol servers and
+    clients.</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="MD5">2087badac040e46fd3d5d14cdde93818</hash>
+        <hash alg="SHA-1">0287cddec8463544c7a5c79dfd2fafc6058baef9</hash>
+        <hash alg="SHA-256">7a6154b96128c5ec5917e946d5d689048f8857b001fd891868f664a33929f136</hash>
+        <hash alg="SHA-512">49b81c1b1e1c291fa92269c6fccf9afcae02c057981752dd12fc2f5be357a5d0a9cfc45d3571c1738c0191aa4ee0cea1820509dbd58fdc5609ddec0db0bcb12e</hash>
+        <hash alg="SHA-384">12165def85a6a85f87b325ab4eb4a09f7c1ea841fc6b3f359aace3e8e1e47f9a70f4bd88b5c838bce180684aa156fbb0</hash>
+        <hash alg="SHA3-384">9270d3ea3eeeb61a17de3cf1ab3f48a4c920ef32dd72492ddbf980ec7bc795cd845f48ac1ac884f587989a254826860e</hash>
+        <hash alg="SHA3-256">97563088f46fd8ba908d49d63986248b9a90299561aadc7b7c1611f6d802486d</hash>
+        <hash alg="SHA3-512">e1f0fa01a51a3d6dfa204911d9039b0f52044944e393ba2780df2c7acc4e7565db6331f02e5feecd557e740d2ec228397a2a0807b4ef511e1900caf5e2ed3d13</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/io.netty/netty-transport-native-epoll@4.1.92.Final?classifier=linux-x86_64&amp;type=jar</purl>
+      <externalReferences><reference type="website"><url>https://netty.io/netty-transport-native-epoll/</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="vcs"><url>https://github.com/netty/netty/netty-transport-native-epoll</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/io.netty/netty-transport-native-epoll@4.1.92.Final?classifier=linux-aarch_64&amp;type=jar">
+      <publisher>The Netty Project</publisher>
+      <group>io.netty</group>
+      <name>netty-transport-native-epoll</name>
+      <version>4.1.92.Final</version>
+      <description>Netty is an asynchronous event-driven network application framework for
+    rapid development of maintainable high performance protocol servers and
+    clients.</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="MD5">69a3061cb7c05875cb2bc6fac5b14218</hash>
+        <hash alg="SHA-1">725ff7c76eb5e8e33380c246e7ce1f9c5ac10c58</hash>
+        <hash alg="SHA-256">f91bb777e2954eea033550c09b7c2d94e83962fc418d98fcc7bf1ee03a84ec25</hash>
+        <hash alg="SHA-512">0ee874501af89bf665bb12f083dd10c80152f85118148ba54f7216fcf75c5614db174979bf0e3a509d321492719d759033cf4f28174840439832280c78a106ee</hash>
+        <hash alg="SHA-384">069363838157d4aacba908450ba15bae29d5b40c3690b1183274f0228ba18a227ab3f83af47204e67066e615448986c0</hash>
+        <hash alg="SHA3-384">e93a79232a7ab351b421e0554f0a4207db8e025dcaa7cfa270dcbd385fbf0c59ff8c0a631904310fc2bec9c6aa917077</hash>
+        <hash alg="SHA3-256">ebf474cdc40b24ad7bb9adaee4056805a7251003cdb310a2d91f66a6cfe4ca4b</hash>
+        <hash alg="SHA3-512">2ef5a064f66ddede9a2d9f7f7fcddb1d1b05100fa98fd69a8ed297f43ff2cf203963ad9f2ceec096c89a4f2bbdf8445a5e50eab7f139e423c2b4a2f213233763</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/io.netty/netty-transport-native-epoll@4.1.92.Final?classifier=linux-aarch_64&amp;type=jar</purl>
+      <externalReferences><reference type="website"><url>https://netty.io/netty-transport-native-epoll/</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="vcs"><url>https://github.com/netty/netty/netty-transport-native-epoll</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/io.netty/netty-transport-native-kqueue@4.1.92.Final?classifier=osx-aarch_64&amp;type=jar">
+      <publisher>The Netty Project</publisher>
+      <group>io.netty</group>
+      <name>netty-transport-native-kqueue</name>
+      <version>4.1.92.Final</version>
+      <description>Netty is an asynchronous event-driven network application framework for
+    rapid development of maintainable high performance protocol servers and
+    clients.</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="MD5">deccf8f230cbb49381152a5db433de77</hash>
+        <hash alg="SHA-1">58385d4a06aa2527a68b332519f2b02cb626bd63</hash>
+        <hash alg="SHA-256">2d54050f40e52f376c97e1d0ccc57bc5bbd1bac7a3173d6e6ff297ff447fab28</hash>
+        <hash alg="SHA-512">a9e84e1ed337c8d219b83211140e01388e79b97cf5da03323bd6f31fea183f785d1268c8008e64f3f62511ecd6d907b0cca7541cf70e3d0cdb980954637db56b</hash>
+        <hash alg="SHA-384">2e0939838ae344978041645a0c4ce004e093427065cd565f41cedc020df62efe64d2a8e7fd3fe0ba220dd1f1acea4bcd</hash>
+        <hash alg="SHA3-384">f1746d4ddda776aad4c19dc4403ba2eb6ac8280d386f4fefcc180b26a0cf3c2d8d1dab7f93c2509ec38bc31ab54d66cd</hash>
+        <hash alg="SHA3-256">3a249fa448a86ce57c05dfdc3c81a00494d5847f6191cd93cc591f66b2d99c17</hash>
+        <hash alg="SHA3-512">f65bd0ea554d810e39e55914f6e7acd21063a3837398184ee987a11626c28273da29419629ae88a111f7088eb23f2a396db71ec24ac4834467c0995985a8fab9</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/io.netty/netty-transport-native-kqueue@4.1.92.Final?classifier=osx-aarch_64&amp;type=jar</purl>
+      <externalReferences><reference type="website"><url>https://netty.io/netty-transport-native-kqueue/</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="vcs"><url>https://github.com/netty/netty/netty-transport-native-kqueue</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/io.netty/netty-transport-native-kqueue@4.1.92.Final?classifier=osx-x86_64&amp;type=jar">
+      <publisher>The Netty Project</publisher>
+      <group>io.netty</group>
+      <name>netty-transport-native-kqueue</name>
+      <version>4.1.92.Final</version>
+      <description>Netty is an asynchronous event-driven network application framework for
+    rapid development of maintainable high performance protocol servers and
+    clients.</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="MD5">d77473e9eaa9160fbb8b207649d33a7f</hash>
+        <hash alg="SHA-1">e6547a23ac082b58db1fa061ff0d1f52f672ca30</hash>
+        <hash alg="SHA-256">efa2379918bc3f6a2f3f78db6035ee7b03ba89bb257db2836d9130321cf73b03</hash>
+        <hash alg="SHA-512">6dd641330b23379c885a573d8699b7c666147897b209d68b2bea36712b7ffdc799010e9ac44be01c2c244529651bc933f2338a3183d16b20ce065ece6d323016</hash>
+        <hash alg="SHA-384">c7a8d2d8c9a98e4ffc7c5b4bfbafec1aa4337217b02e35bc9c533be236641647f95cbd555087e621d1aed55f9be437ce</hash>
+        <hash alg="SHA3-384">f2bb09a090120332c8f173ed47e37c239df5bae661c2a7cc3ed5cfec9bba6df5d327a05f1a792e7395a22b3f377c94a4</hash>
+        <hash alg="SHA3-256">987c39f70aa5d0a2bf68c16acfbf9279e1a70d8e24b68917b020db808fd5193b</hash>
+        <hash alg="SHA3-512">25f81439db9e68c61237672fba580a2bf364b55ac172599a8dda0f4c32908a16ead42a70853938e0e6c33b1fc52b7cc04a01f569dc350d88e0ebe418bf6c29a6</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/io.netty/netty-transport-native-kqueue@4.1.92.Final?classifier=osx-x86_64&amp;type=jar</purl>
+      <externalReferences><reference type="website"><url>https://netty.io/netty-transport-native-kqueue/</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="vcs"><url>https://github.com/netty/netty/netty-transport-native-kqueue</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.apache.commons/commons-lang3@3.12.0?type=jar">
+      <publisher>The Apache Software Foundation</publisher>
+      <group>org.apache.commons</group>
+      <name>commons-lang3</name>
+      <version>3.12.0</version>
+      <description>Apache Commons Lang, a package of Java utility classes for the
+  classes that are in java.lang's hierarchy, or are considered to be so
+  standard as to justify existence in java.lang.</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="MD5">19fe50567358922bdad277959ea69545</hash>
+        <hash alg="SHA-1">c6842c86792ff03b9f1d1fe2aab8dc23aa6c6f0e</hash>
+        <hash alg="SHA-256">d919d904486c037f8d193412da0c92e22a9fa24230b9d67a57855c5c31c7e94e</hash>
+        <hash alg="SHA-512">fbdbc0943cb3498b0148e86a39b773f97c8e6013740f72dbc727faeabea402073e2cc8c4d68198e5fc6b08a13b7700236292e99d4785f2c9989f2e5fac11fd81</hash>
+        <hash alg="SHA-384">c34b8a0e0eba2168ad56fedeb7a1d710b6f1d3f1ce6aae99a4e0247bd120efbbadc8dcb2f731045b8a16e3efd30604dc</hash>
+        <hash alg="SHA3-384">8ad6ebe7754bf0caa8cda7e59c0e95360d76e06a7ad6aeec5637985519dbd1dd06e7eed04711039f36ec4c49de280def</hash>
+        <hash alg="SHA3-256">18ef639b2aeeb5aedffb18dbf20c79f33e300d99fb31b131689639cc470e6e4c</hash>
+        <hash alg="SHA3-512">fbea96114dcf4f31cfaaa99987be756ddda3a6c74f8c835461997df794d54b92da1f60fe5c3f1f2a43cb8c5f5db7f4048bef77c70993673c7a93f3660fffc8da</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.apache.commons/commons-lang3@3.12.0?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://commons.apache.org/proper/commons-lang/</url></reference><reference type="build-system"><url>https://builds.apache.org/</url></reference><reference type="distribution"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference><reference type="issue-tracker"><url>https://issues.apache.org/jira/browse/LANG</url></reference><reference type="mailing-list"><url>https://mail-archives.apache.org/mod_mbox/commons-user/</url></reference><reference type="vcs"><url>https://gitbox.apache.org/repos/asf?p=commons-lang.git</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.fusesource.leveldbjni/leveldbjni-all@1.8?type=jar">
+      <publisher>FuseSource, Corp.</publisher>
+      <group>org.fusesource.leveldbjni</group>
+      <name>leveldbjni-all</name>
+      <version>1.8</version>
+      <description>An uber jar which contains all the leveldbjni platform libraries and dependencies</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="MD5">6944e9bc03c7938868e53c96726ae914</hash>
+        <hash alg="SHA-1">707350a2eeb1fa2ed77a32ddb3893ed308e941db</hash>
+        <hash alg="SHA-256">c297213b0e6f9392305952753f3099a4c02e70b3656266fe01867e7b6c160ffe</hash>
+        <hash alg="SHA-512">2e9f806af5d89c00e345b4516ffd325893a07f30c87274fa5b8ce314aad021633750b665d8c338fbf5adc79a527e19caf96d0b12af57e56fb8d3d8f7fd845a96</hash>
+        <hash alg="SHA-384">f10d7ce88da5a9fada67fcbf6fc02939346e67428ee5dd7b000f884d8046131391ee1ece83885d3de60532d1227a66f2</hash>
+        <hash alg="SHA3-384">b5919e94b576b4c30017e16f0b1a983aed10ba755bda341cd3f6056b56e0d024c1c63aa9892aab3be166c8a70fc94e47</hash>
+        <hash alg="SHA3-256">5a8e38c0619923426a8a37733a9249986e6b9b389ebe2fe04b9235e045fea406</hash>
+        <hash alg="SHA3-512">136aed54a48e86ec78e99ff19fc40de5dacfe9f0d9975e5e5c19024b68e35cdf88f82587d09d1f4e32db6ddb96fe7cd663bf1e01098e8366547a6a1620f938fc</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>BSD-3-Clause</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.fusesource.leveldbjni/leveldbjni-all@1.8?type=jar</purl>
+      <externalReferences><reference type="website"><url>http://leveldbjni.fusesource.org/leveldbjni-all</url></reference><reference type="distribution"><url>http://repo.fusesource.com/nexus/service/local/staging/deploy/maven2</url></reference><reference type="issue-tracker"><url>https://github.com/fusesource/leveldbjni/issues</url></reference><reference type="mailing-list"><url>leveldbjni-dev-subscribe@fusesource.org</url></reference><reference type="vcs"><url>https://github.com/fusesource/leveldbjni/leveldbjni-all</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.rocksdb/rocksdbjni@8.1.1.1?type=jar">
+      <publisher>Facebook</publisher>
+      <group>org.rocksdb</group>
+      <name>rocksdbjni</name>
+      <version>8.1.1.1</version>
+      <description>RocksDB fat jar that contains .so files for linux32 and linux64 (glibc and musl-libc), jnilib files
+        for Mac OSX, and a .dll for Windows x64.</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="MD5">6fcf763632e008771a2ca4f91fb2e08d</hash>
+        <hash alg="SHA-1">a74e4711e14a68f8c06212ca61e15e1cd15ab04f</hash>
+        <hash alg="SHA-256">8cd6e97af122db36217b76d27075de1aaea835bc9483f0d7306bd0ed67728d8f</hash>
+        <hash alg="SHA-512">b09f3fd114f6f70ac552734e5027a541b135b2858e0cf713fd5d6f2f249f5f941c32359b3f21ab0e77af5a3da5254eec0808d5786622f14e8715d303defc3ec4</hash>
+        <hash alg="SHA-384">1e64098722b21032472e1a76ed0f6d6e19340bb6163a399116edbd96000aa5adcab966aa78ee1b90b0b8293fb88520bd</hash>
+        <hash alg="SHA3-384">3b15d9a13f1ed57b1781976405bbce5e3bfa65c87a4ab457cdc0c50c7603ce66edfc02e8e87b2e76390e356ea12a84f3</hash>
+        <hash alg="SHA3-256">6b556b660675a2c4639b7be0bd0e00bb46213051579563747e7e3e665cf7d1b4</hash>
+        <hash alg="SHA3-512">fd2caa3525992be5357ebfae6d3c447669d7ecf9c1b30286ec153e13aeaab737de0156c376fd181e57469d5775e692f5958c6c9251a1b810c794befe8b410a5c</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+          <url>https://www.apache.org/licenses/LICENSE-2.0</url>
+        </license>
+        <license>
+          <name>GNU General Public License, version 2</name>
+          <url>http://www.gnu.org/licenses/gpl-2.0.html</url>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.rocksdb/rocksdbjni@8.1.1.1?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://rocksdb.org</url></reference><reference type="mailing-list"><url>https://groups.google.com/forum/#!forum/rocksdb</url></reference><reference type="vcs"><url>scm:git:https://github.com/facebook/rocksdb.git</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.15.2?type=jar">
+      <publisher>FasterXML</publisher>
+      <group>com.fasterxml.jackson.core</group>
+      <name>jackson-databind</name>
+      <version>2.15.2</version>
+      <description>General data-binding functionality for Jackson: works on core streaming API</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="MD5">20ac0d0526a456274409fa852eb74087</hash>
+        <hash alg="SHA-1">9353b021f10c307c00328f52090de2bdb4b6ff9c</hash>
+        <hash alg="SHA-256">0eb2fdad6e40ab8832a78c9b22f58196dd970594e8d3d5a26ead87847c4f3a96</hash>
+        <hash alg="SHA-512">edf622f3d2bb2cdf308875e467f28eafdd581c6ad47992a2b49a2c803b597c7fe4330c8f887687599c8a6a529d8b11054f8b354b7ddddd2bf904ef347d4f1cd2</hash>
+        <hash alg="SHA-384">cced300ea06748cc30cdabf1a0a8e45749d3d2a52740975acd858bd13b83458d535a52fc4cc0eb8991ebd3638b9688ec</hash>
+        <hash alg="SHA3-384">c4a29f5075cc31b52aabfc8f656ee761b075954fe89469e76aef7a563d93ee71653310967b68f89ce25ed26241c0bda9</hash>
+        <hash alg="SHA3-256">400677b87f766708abe38aea66c8564cb422cd271208e926a0c2eac99b64cd92</hash>
+        <hash alg="SHA3-512">0a02353d0afa97f7cb85f1f81ee221cf4425fbde1e2d1b6b7bd8fe0d5d2fcb5dbba8b6fe9c79b500c71fdac8accb77eccebe0853fd8c37bd34aa578796b8a81a</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.15.2?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://github.com/FasterXML/jackson</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>https://github.com/FasterXML/jackson-databind/issues</url></reference><reference type="vcs"><url>https://github.com/FasterXML/jackson-databind</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/com.fasterxml.jackson.core/jackson-core@2.15.2?type=jar">
+      <publisher>FasterXML</publisher>
+      <group>com.fasterxml.jackson.core</group>
+      <name>jackson-core</name>
+      <version>2.15.2</version>
+      <description>Core Jackson processing abstractions (aka Streaming API), implementation for JSON</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="MD5">e51fdee85b48e6637ad9e85ee76b58df</hash>
+        <hash alg="SHA-1">a6fe1836469a69b3ff66037c324d75fc66ef137c</hash>
+        <hash alg="SHA-256">303c99e82b1faa91a0bae5d8fbeb56f7e2adf9b526a900dd723bf140d62bd4b4</hash>
+        <hash alg="SHA-512">a8a3ddf5c8a732fc3810f9c113d88fd59bf613d15dbf9d3e24dd196b2b8c2195f4088375e3d03906f2629e62983fef3267b5478abd5ab1df733ec58cd00efae6</hash>
+        <hash alg="SHA-384">22f4b71de5860b9c54dd85091d5b1312f7f5097a376f68f5a35b32a342858bf2e24ed394d76be0648545a6137d78b82e</hash>
+        <hash alg="SHA3-384">bf7f6d6d6898978d2ca11e924f0268a90adbb6f6f88b1402e7c96b6fba76ff4e7d83ba163d10b1c551443c3b3cdef9d2</hash>
+        <hash alg="SHA3-256">fa5ecb4b5ab9884403d5001dd368be876e10daf90e91fccfdf6fb21f14563c15</hash>
+        <hash alg="SHA3-512">1e8648a4c8aac64f0f71787ec6dd4693a30fe0e3c1fb78ce12b2a1865d17d7f9788c085ed1ac1216e45c05f582a0764d8fee44cf18cc90403846d255fe778c7b</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/com.fasterxml.jackson.core/jackson-core@2.15.2?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://github.com/FasterXML/jackson-core</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>https://github.com/FasterXML/jackson-core/issues</url></reference><reference type="vcs"><url>https://github.com/FasterXML/jackson-core</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.15.2?type=jar">
+      <publisher>FasterXML</publisher>
+      <group>com.fasterxml.jackson.core</group>
+      <name>jackson-annotations</name>
+      <version>2.15.2</version>
+      <description>Core annotations used for value types, used by Jackson data binding package.</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="MD5">71dabcaac955a8bd17b5bba6580aac5b</hash>
+        <hash alg="SHA-1">4724a65ac8e8d156a24898d50fd5dbd3642870b8</hash>
+        <hash alg="SHA-256">04e21f94dcfee4b078fa5a5f53047b785aaba69d19de392f616e7a7fe5d3882f</hash>
+        <hash alg="SHA-512">c9ffb4cf3e409921bca1fa6126ca8746c611042ac3fcf0e4f991d23d12b20ef0946ef1421d991ae8ed86012059df4e08fb776d96db6d13147c2ec85e22254537</hash>
+        <hash alg="SHA-384">78885119a700d5dd717fc83e58bf063e1fd07bc823846b6797af6a04a99e92e8fbcf28c3a1316079e6695c138c110deb</hash>
+        <hash alg="SHA3-384">f5b8fcedd6d34427bbe32b1c6082b49d9ded5a00b69549cd6722ffad7d87f3e90b48ddc74a8bd0dec1987ebac73df3a7</hash>
+        <hash alg="SHA3-256">b4e4df4be6fe975483027aef5d4df099d8bf6dd5974118d118a47775d5f75a88</hash>
+        <hash alg="SHA3-512">d10fdee33fe005f9941851117e7021fae066ca3ddf2ccbbd048dae103f3cb540e11116ba53fe48b34bbab6fcfe09a6cbc6c50d1bc74893509e8b93a6c6f2c517</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.15.2?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://github.com/FasterXML/jackson</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>https://github.com/FasterXML/jackson-annotations/issues</url></reference><reference type="vcs"><url>https://github.com/FasterXML/jackson-annotations</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/com.google.code.findbugs/jsr305@3.0.0?type=jar">
+      <group>com.google.code.findbugs</group>
+      <name>jsr305</name>
+      <version>3.0.0</version>
+      <description>JSR305 Annotations for Findbugs</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="MD5">195d5db8981fbec5fa18d5df9fad95ed</hash>
+        <hash alg="SHA-1">5871fb60dc68d67da54a663c3fd636a10a532948</hash>
+        <hash alg="SHA-256">bec0b24dcb23f9670172724826584802b80ae6cbdaba03bdebdef9327b962f6a</hash>
+        <hash alg="SHA-512">399510f759fb48255c6298f3545c9b644372fbc9d7245e80e6b51f49da0ac9275d104092c537ac047d5a1312c7d191dee8d655ca8d760b59ce1452bf4370a6e0</hash>
+        <hash alg="SHA-384">a7fa7a0b69f41518fdb70e847148e17d0909fb657cee127308fb6cd14f913c63c82608aeae3955f10b48d358a8addfee</hash>
+        <hash alg="SHA3-384">e55c3626a26119f465822e95c33266304bd87755e5e5865833dc10f4e2c1105c6c3ddc9efd889b1e43b346663627745b</hash>
+        <hash alg="SHA3-256">dbd709e4edb2fe0ebd9b0d993e35f9fbf8bdb21cce13139bc6986c829c03aed6</hash>
+        <hash alg="SHA3-512">a7cd693c969c8f9f6417030e987a4dda020c6a35d2b4174935baacf91619fc239fdf15a0af9a64d05855c872600c9744ee2755ad705b6d59fe099deea1e439bd</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/com.google.code.findbugs/jsr305@3.0.0?type=jar</purl>
+      <externalReferences><reference type="website"><url>http://findbugs.sourceforge.net/</url></reference><reference type="vcs"><url>https://code.google.com/p/findbugs/</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.apache.commons/commons-crypto@1.1.0?type=jar">
+      <publisher>The Apache Software Foundation</publisher>
+      <group>org.apache.commons</group>
+      <name>commons-crypto</name>
+      <version>1.1.0</version>
+      <description>Apache Commons Crypto is a cryptographic library optimized with AES-NI (Advanced Encryption
+Standard New Instructions). It provides Java API for both cipher level and Java stream level.
+Developers can use it to implement high performance AES encryption/decryption with the minimum
+code and effort. Please note that Crypto doesn't implement the cryptographic algorithm such as
+AES directly. It wraps to Openssl or JCE which implement the algorithms.
+
+Features
+--------
+
+1. Cipher API for low level cryptographic operations.
+2. Java stream API (CryptoInputStream/CryptoOutputStream) for high level stream encryption/decryption.
+3. Both optimized with high performance AES encryption/decryption. (1400 MB/s - 1700 MB/s throughput in modern Xeon processors).
+4. JNI-based implementation to achieve comparable performance to the native C/C++ version based on OpenSsl.
+5. Portable across various operating systems (currently only Linux/MacOSX/Windows);
+   Apache Commons Crypto loads the library according to your machine environment (it checks system properties, `os.name` and `os.arch`).
+6. Simple usage. Add the commons-crypto-(version).jar file to your classpath.
+
+
+Export restrictions
+-------------------
+
+This distribution includes cryptographic software.
+The country in which you currently reside may have restrictions
+on the import, possession, use, and/or re-export to another country,
+of encryption software. BEFORE using any encryption software,
+please check your country's laws, regulations and policies
+concerning the import, possession, or use, and re-export of
+encryption software, to see if this is permitted.
+See &lt;http://www.wassenaar.org/> for more information.
+
+The U.S. Government Department of Commerce, Bureau of Industry and Security (BIS),
+has classified this software as Export Commodity Control Number (ECCN) 5D002.C.1,
+which includes information security software using or performing
+cryptographic functions with asymmetric algorithms.
+The form and manner of this Apache Software Foundation distribution makes
+it eligible for export under the License Exception
+ENC Technology Software Unrestricted (TSU) exception
+(see the BIS Export Administration Regulations, Section 740.13)
+for both object code and source code.
+
+The following provides more details on the included cryptographic software:
+
+* Commons Crypto use [Java Cryptography Extension](http://docs.oracle.com/javase/8/docs/technotes/guides/security/crypto/CryptoSpec.html) provided by Java
+* Commons Crypto link to and use [OpenSSL](https://www.openssl.org/) ciphers</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="MD5">c71451f3c4737ba6d84f9bd9e8f2400d</hash>
+        <hash alg="SHA-1">4a8b4caa84032a0f1f1dad16875820a4f37524b7</hash>
+        <hash alg="SHA-256">44dc28551cdba731658090d9b10d2eead9839c269d70cdcd7d56c0423df5227f</hash>
+        <hash alg="SHA-512">62acf1d90ad667c8f3f9b267c6f4fefa57eb914ef57a24e10a7dc6ea7bf1f2a6933db831f836dc2ca0fe86aff84a6d1a0fb3c8bb34c7c24e3e1190778efb241d</hash>
+        <hash alg="SHA-384">0d7c20964ab9cbde60d3d03ca92b481e30f969b30adc336b77ec8b8dcb660e327bfff8c98cb9c30163e7bdf5ffbae486</hash>
+        <hash alg="SHA3-384">a86cd2c434475336d6258dbccae98575888b910a935517ddb832bbefd944b0427ebb7742e5ef65e5e7e2046f94a4fc27</hash>
+        <hash alg="SHA3-256">aea2f3e041185d2f7ede524ebdc76f76708db74da5023dc34d2d75c0fe2ec6c2</hash>
+        <hash alg="SHA3-512">313cd4870c67daf90157f6567e969cfe8845f0cf4b90f7667dfbadd4cb35a526109a59b60e1bb677a9938471c15ebdfe973038e0cdfba2f06db98fdbf88e8710</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.apache.commons/commons-crypto@1.1.0?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://commons.apache.org/proper/commons-crypto/</url></reference><reference type="build-system"><url>https://builds.apache.org/search/?q=Commons-CRYPTO</url></reference><reference type="distribution"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference><reference type="issue-tracker"><url>https://issues.apache.org/jira/browse/CRYPTO</url></reference><reference type="mailing-list"><url>https://mail-archives.apache.org/mod_mbox/commons-user/</url></reference><reference type="vcs"><url>https://gitbox.apache.org/repos/asf?p=commons-crypto.git</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/com.google.crypto.tink/tink@1.9.0?type=jar">
+      <group>com.google.crypto.tink</group>
+      <name>tink</name>
+      <version>1.9.0</version>
+      <description>Tink is a small cryptographic library that provides a safe, simple, agile and fast way to accomplish some common cryptographic tasks.</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="MD5">4dde51a12b3ba7e77c1a179b659c7250</hash>
+        <hash alg="SHA-1">010de1d0ea8401c3e33cad83c0d11df712d40ba5</hash>
+        <hash alg="SHA-256">8faf92d116a0ba138ee4e99a7418e985897818c2f6a9d4c01b8fe6b07db60eb7</hash>
+        <hash alg="SHA-512">f4c72066953f8e411bcb701b75a6e5509aeee31bc0bc4722212b8e291d5e15c34495b262fec476cfdbe8c91696ae3762a896735371c732627bf4de320befbf05</hash>
+        <hash alg="SHA-384">7d726f7568b24f374b8fe50f02fcd3a68c3ac9df962d9c8dc2d17ebb58c5aa415e0ea802e52d37fcd821ad4dfe07f3ae</hash>
+        <hash alg="SHA3-384">aeeaa111ee513dbf2efc3b24a3fd187a656fb705a2f21721cde155d26a37b83ee24491ec666ea40f85db01e33fa15d8b</hash>
+        <hash alg="SHA3-256">d55dc71f6b531fab11ea0865a90c450bbee1cee6723bfae3f0c29353c0a784e1</hash>
+        <hash alg="SHA3-512">f7ba23feee725ccca8bb652e4fa289b8dedde5929b33d9be73604dae1ee05b0b0091731665fa394a84c5407228fdeab080ecdf62b314f99eaeadcdecec480d4d</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/com.google.crypto.tink/tink@1.9.0?type=jar</purl>
+      <externalReferences><reference type="website"><url>http://github.com/tink-crypto/tink-java</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>https://github.com/tink-crypto/tink-java/issues</url></reference><reference type="mailing-list"><url>https://groups.google.com/group/tink-users</url></reference><reference type="vcs"><url>https://github.com/tink-crypto/tink-java.git</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/com.google.code.gson/gson@2.10.1?type=jar">
+      <group>com.google.code.gson</group>
+      <name>gson</name>
+      <version>2.10.1</version>
+      <description>Gson JSON library</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="MD5">df6097815738cb31fc56391553210843</hash>
+        <hash alg="SHA-1">b3add478d4382b78ea20b1671390a858002feb6c</hash>
+        <hash alg="SHA-256">4241c14a7727c34feea6507ec801318a3d4a90f070e4525681079fb94ee4c593</hash>
+        <hash alg="SHA-512">7503e4b8d05c6cc0ecb3a94c5a2e070e049083a441003a79a0cdf474f4286699b4ba1d2a655ddabb8ba10c50e7c36a7045cccdaee465166d4630db647aba2727</hash>
+        <hash alg="SHA-384">48a4786bd6e1867f058ee4fb676fc82d9d9f64a6d7420d4a47ae2398504c9de73222636614aeb4a9fbf10ee143d72226</hash>
+        <hash alg="SHA3-384">3df9a0332c2766124fe7c915cfea665d2e318ccaa7212415fabd9e93e6eb77de538725fd2ef313cde46f6d814c9566ea</hash>
+        <hash alg="SHA3-256">d3374006d76d4f9acdf3d3a1a4f47899570f52442b2188f80c09a74f22139ecb</hash>
+        <hash alg="SHA3-512">2b10c2f4fe39d8712b430ff171823d7172c0a06685c1eb7de511e90159cec0e094fb2a9b50b747c5b039cb10f1fce9edf82ecbf9c47f76a6f31c4e3cb7586cce</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+          <url>https://www.apache.org/licenses/LICENSE-2.0</url>
+        </license>
+      </licenses>
+      <purl>pkg:maven/com.google.code.gson/gson@2.10.1?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://github.com/google/gson/gson</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>https://github.com/google/gson/issues</url></reference><reference type="vcs"><url>https://github.com/google/gson/gson/</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/com.google.protobuf/protobuf-java@3.23.2?type=jar">
+      <group>com.google.protobuf</group>
+      <name>protobuf-java</name>
+      <version>3.23.2</version>
+      <description>Core Protocol Buffers library. Protocol Buffers are a way of encoding structured data in an
+    efficient yet extensible format.</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="MD5">87940b2f1660ff92f3afe151e3c76eff</hash>
+        <hash alg="SHA-1">f658ef60596ce70251ff9bc118436d5dadc3bd2a</hash>
+        <hash alg="SHA-256">18a057f5e0f828daa92b71c19df91f6bcc2aad067ca2cdd6b5698055ca7bcece</hash>
+        <hash alg="SHA-512">153313597db48a3496c0118786d14e2dc3589a503b82863590a66c8786fc3f2b4099be8f589d41510c90489222331925633aa7ab6ba387f3ab1915238f12f9dc</hash>
+        <hash alg="SHA-384">a3b1151c6964ab0da317aa1a22c29306129f25bee657d31618c2353297d5db6e07b97317b5c6c2b1efd21aa1c4e26a38</hash>
+        <hash alg="SHA3-384">20a28cd643095ab6f92652233ab52fe6bd43f42363c48aeecbbd4033810c758da6135c91e7e2e427423b73702416f42f</hash>
+        <hash alg="SHA3-256">e17bcfd4a59981c6825416d9768ab359eaad2cf1f2f5a5a4f38e53b3cc90702c</hash>
+        <hash alg="SHA3-512">eefc3ed3101b3e0718c9e4ad8dc346cffa09ca98bc2932793e7ae7786392ca7fff926270f0668f317ac12c7fa7f4a24d0871300bf97ac69adeebef72b898406c</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>BSD-3-Clause</id>
+          <url>https://opensource.org/licenses/BSD-3-Clause</url>
+        </license>
+      </licenses>
+      <purl>pkg:maven/com.google.protobuf/protobuf-java@3.23.2?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://developers.google.com/protocol-buffers/protobuf-java/</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="vcs"><url>https://github.com/protocolbuffers/protobuf/protobuf-java</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/joda-time/joda-time@2.12.5?type=jar">
+      <publisher>Joda.org</publisher>
+      <group>joda-time</group>
+      <name>joda-time</name>
+      <version>2.12.5</version>
+      <description>Date and time library to replace JDK date handling</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="MD5">a0f575850531c768542236ea245b7516</hash>
+        <hash alg="SHA-1">698ce67b5e58becfb4ef2cf0393422775e59dff4</hash>
+        <hash alg="SHA-256">10628411ecb40c4634196c544f34681abdeef826f377096357433d1f9a135bc6</hash>
+        <hash alg="SHA-512">300d1acaac8c49e3d6d74077392ecb9aba4115173f8734923413bfb049f01a668f4852099e9682146dd2f41faed244ca2a91c2d70b98930bffb811532f99efdf</hash>
+        <hash alg="SHA-384">acd89d4bfe98d1388b8652995d288ef26441072898d25f68abead84e016d858af7b775cf0e830257c77873c4a7b22139</hash>
+        <hash alg="SHA3-384">8127810bff5cc6993d729e79fbf55e768e386003a7ce7a7a989453a19abee08374f2d9970c805467816626e7903895f6</hash>
+        <hash alg="SHA3-256">da3474a4794021ff9c5137a5fafb8267db03d6c00828387b498ac9808337a886</hash>
+        <hash alg="SHA3-512">6008121bc71023292475f898b9347dfabb34d1d16277e98343d16a5fdba68f8b07ff1ac10534644fe2685afe5fd22f80022d9f935c5817cf801f353ee688f5c1</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/joda-time/joda-time@2.12.5?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://www.joda.org/joda-time/</url></reference><reference type="distribution"><url>https://oss.sonatype.org/content/repositories/joda-releases</url></reference><reference type="issue-tracker"><url>https://github.com/JodaOrg/joda-time/issues</url></reference><reference type="vcs"><url>https://github.com/JodaOrg/joda-time</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/io.dropwizard.metrics/metrics-core@4.2.18?type=jar">
+      <group>io.dropwizard.metrics</group>
+      <name>metrics-core</name>
+      <version>4.2.18</version>
+      <description>Metrics is a Java library which gives you unparalleled insight into what your code does in
+        production. Metrics provides a powerful toolkit of ways to measure the behavior of critical
+        components in your production environment.</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="MD5">12a44e4743505ef6e028663bf46d4ec9</hash>
+        <hash alg="SHA-1">616b1bcf7ce3e45d1a49236f8aba4993d1897048</hash>
+        <hash alg="SHA-256">4b55275b6cbe42d727286e5a3e8d9d2d9ac3a0536675808615f8a505983b8185</hash>
+        <hash alg="SHA-512">c90f9c71611f8f633705125c9b382366c21ff01dd8969a8e322c2939e29c385ce56139e761e7a205f803cd4e6aa2c9c5b06a12400c0f03590a67b75ede9e2a3e</hash>
+        <hash alg="SHA-384">f9544c5718260909db23316dde368182a9e3350d78e267f3d587728f43d12acc3460b068de67202b76a87914c6da955c</hash>
+        <hash alg="SHA3-384">0e0ba8ff35ca60ee811014fb357cf390de4d34d4e13e5d6d08a11cbf6d42b9674a2f03a08465c3d5639c2063020e5937</hash>
+        <hash alg="SHA3-256">762f254a2998d5b4b093d2a7230d7616098b15475b08dbbff6e1df92d0e3ebf1</hash>
+        <hash alg="SHA3-512">f26a93373b04f947e128d1166d8e6223778acc27db44e5bc680fc6c1442f95a13fff26960d95ef22ed38f1012a33df261b8ad0ff07f8040e1b5e9ccbda5fddcb</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+          <url>https://www.apache.org/licenses/LICENSE-2.0</url>
+        </license>
+      </licenses>
+      <purl>pkg:maven/io.dropwizard.metrics/metrics-core@4.2.18?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://metrics.dropwizard.io/metrics-core</url></reference><reference type="distribution"><url>https://s01.oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>https://github.com/dropwizard/metrics/issues/</url></reference><reference type="vcs"><url>https://github.com/dropwizard/metrics/metrics-core/</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.apache.spark/spark-tags_2.12@3.5.0-SNAPSHOT?type=jar">
+      <publisher>Apache Software Foundation</publisher>
+      <group>org.apache.spark</group>
+      <name>spark-tags_2.12</name>
+      <version>3.5.0-SNAPSHOT</version>
+      <description>The Apache Software Foundation provides support for the Apache community of open-source software projects.
+    The Apache projects are characterized by a collaborative, consensus based development process, an open and
+    pragmatic software license, and a desire to create high quality software that leads the way in its field.
+    We consider ourselves not simply a group of projects sharing a server, but rather a community of developers
+    and users.</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="MD5">d973a2c733fb53481f21c66df62c2ff2</hash>
+        <hash alg="SHA-1">83ec5125fd6d797a729a524eb0d8199213a3db34</hash>
+        <hash alg="SHA-256">1250847b5632ac256fff52032db02303dd8340159a43e3e68efaf47ea5a0857d</hash>
+        <hash alg="SHA-512">db162208bb86ef2645d122bb2852991bdbeda1b647e78d4d761600aa179ed7f6202022053908f5f4f6f92c93841ea002102175ebf43fd59ba003a7c296ea3bb9</hash>
+        <hash alg="SHA-384">dfee6d0f8b88840233c74208e3346d6eb36fff70a2a406e1d84c1275298ce054b0ddadd22887a6c56a92d193bf44c695</hash>
+        <hash alg="SHA3-384">d6d12341c397c865ee29e78c5afb6cce7cf1b2538ae2cde5cfe4ad14a75da0e97bab6a8c8628501ba3bb2d574434908d</hash>
+        <hash alg="SHA3-256">10e3733474b5c7cea7f2db13f1eb1ec4f82606d2af47d03ea90aece26323240b</hash>
+        <hash alg="SHA3-512">cc803de485a7bb462ff60d611b03a0fd786855e4fe30c0359552722ff6dfbb2046b9d7891aaf27346d26a33caf98d936b1290ee5374221b69e31cfd707472317</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.apache.spark/spark-tags_2.12@3.5.0-SNAPSHOT?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://spark.apache.org/</url></reference><reference type="distribution"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference><reference type="issue-tracker"><url>https://issues.apache.org/jira/browse/SPARK</url></reference><reference type="mailing-list"><url>dev-subscribe@spark.apache.org</url></reference><reference type="vcs"><url>scm:git:git@github.com:apache/spark.git/common/spark-tags_2.12</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.slf4j/slf4j-api@2.0.7?type=jar">
+      <publisher>QOS.ch</publisher>
+      <group>org.slf4j</group>
+      <name>slf4j-api</name>
+      <version>2.0.7</version>
+      <description>The slf4j API</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="MD5">403dffa46cdd2e3c82da19df4f394a4c</hash>
+        <hash alg="SHA-1">41eb7184ea9d556f23e18b5cb99cad1f8581fc00</hash>
+        <hash alg="SHA-256">5d6298b93a1905c32cda6478808ac14c2d4a47e91535e53c41f7feeb85d946f4</hash>
+        <hash alg="SHA-512">216d2cac27d501972c888f94dfa747d700b80d60813884b6ab4b12c6a3b17ed0c21a1d27e1aa4332c97c828f20039e3913d2763d7e1a3cef36ae4389a276e7a8</hash>
+        <hash alg="SHA-384">c25b39f418aa726ba8405dfd9b356131f89984e2ef5a55a724a2abf3b7c78443f671105835161d2414d602cf03da9f2d</hash>
+        <hash alg="SHA3-384">f33abfaac21badae6f85d3ebbc6c1204fd7fda3bb15173e763fa8cee95bce6a8270eec2c8f49343c66c8d2767bc317e1</hash>
+        <hash alg="SHA3-256">6e00d4b264a2afc4ca4e98f716ecece66c32c626ca3f8c5d56b22092b6fe417b</hash>
+        <hash alg="SHA3-512">ad7b9142d370fc532a07cdd43881a129b012ff50e2bede3ac27d9bd31ec707bf2f45e82002fa59e962955cc38ab73cdd77713fca50cedc926c046f5617c1285b</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>MIT</id>
+          <url>https://opensource.org/licenses/MIT</url>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.slf4j/slf4j-api@2.0.7?type=jar</purl>
+      <externalReferences><reference type="website"><url>http://www.slf4j.org</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="vcs"><url>https://github.com/qos-ch/slf4j/slf4j-api</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/com.google.guava/guava@14.0.1?type=jar">
+      <group>com.google.guava</group>
+      <name>guava</name>
+      <version>14.0.1</version>
+      <description>Guava is a suite of core and expanded libraries that include
+    utility classes, google's collections, io classes, and much
+    much more.
+
+    Guava has two code dependencies - javax.annotation
+    per the JSR-305 spec and javax.inject per the JSR-330 spec.</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="MD5">58553f87d83b9f8ec74bd3529083ee2f</hash>
+        <hash alg="SHA-1">69e12f4c6aeac392555f1ea86fab82b5e5e31ad4</hash>
+        <hash alg="SHA-256">d69df3331840605ef0e5fe4add60f2d28e870e3820937ea29f713d2035d9ab97</hash>
+        <hash alg="SHA-512">e920540dbdee79fba1a5e0966ae92ac37358aa4126c04a08732e4260916807901d8dea41322037ef7908fc0204281d05a1bfa95401fcfc473630c0bc8e81343a</hash>
+        <hash alg="SHA-384">1f5c72fdf4fbef5fe6044054d83cda82d409ce2b8e304913cc985341ceb13e75728dfcdba522dc87aa04577a054afeae</hash>
+        <hash alg="SHA3-384">9ed7ee275c97f7e8d5087efc38c217e25eb7e55f94d8ea900775f1764b97cccdb91b75095b47443563d0178c88106f6e</hash>
+        <hash alg="SHA3-256">1f1db7170a0f57d7e282500355dc634336200407612fd291e08b2fd40de5b62d</hash>
+        <hash alg="SHA3-512">8ed7822622b630a6724ed0c86b94e51cae21221ffc7f603b857dff4417f0607b276ce5e7ed8fe2e13613e744dfea49333195372b7eb8f6570d15448135f5f39c</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/com.google.guava/guava@14.0.1?type=jar</purl>
+      <externalReferences><reference type="website"><url>http://code.google.com/p/guava-libraries/guava</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>http://code.google.com/p/guava-libraries/issues</url></reference><reference type="vcs"><url>http://code.google.com/p/guava-libraries/source/browse/guava</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.roaringbitmap/RoaringBitmap@0.9.44?type=jar">
+      <group>org.roaringbitmap</group>
+      <name>RoaringBitmap</name>
+      <version>0.9.44</version>
+      <description>Roaring bitmaps are compressed bitmaps (also called bitsets) which tend to outperform conventional compressed bitmaps such as WAH or Concise.</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="MD5">eb3705d08cc164f8b8eaefb9e839f683</hash>
+        <hash alg="SHA-1">d25b4bcb67193d587f6e0617da2c6f84e2d02a9c</hash>
+        <hash alg="SHA-256">9c5ffbbed50cacb3bcff67aaa0e51f8d2ebb83157bc3932d2ae0cac9844a5afa</hash>
+        <hash alg="SHA-512">b439e579a65ce52da843534261d8eb4d8f9f8f875858f7a2c261e97e951e80324b0f55ba56d7d8f78a206f90812bbc0d05d45b3344b5b9c113163771fe4b78f9</hash>
+        <hash alg="SHA-384">591d15bbf5fde8845633be9b428f72edac1da8c697bcbdc7e2a7b350b1d33c91a5bd64c1f015eb57af6ff6d9d393cbe6</hash>
+        <hash alg="SHA3-384">7b9e968c0657013c9417c87946d2eef7266018b2eae1a1bf25d04eb1a285bbfb025181fcaa0f8e44cce1edda92813490</hash>
+        <hash alg="SHA3-256">44b9a1518275f4ea8b0c5e3e11aa8ac8c5d01a00c85c033ad6521773093685a0</hash>
+        <hash alg="SHA3-512">a0c0cf30c424fd69a8e45adabe41c8bafbe1a40d2684f383e449023e8b9b7d5f7cc2319177ce76478213448c3a97f21858b276611c4c8206347d8a913209ca24</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.roaringbitmap/RoaringBitmap@0.9.44?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://github.com/RoaringBitmap/RoaringBitmap</url></reference><reference type="issue-tracker"><url>https://github.com/RoaringBitmap/RoaringBitmap/issues</url></reference><reference type="vcs"><url>https://github.com/RoaringBitmap/RoaringBitmap</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.roaringbitmap/shims@0.9.44?type=jar">
+      <group>org.roaringbitmap</group>
+      <name>shims</name>
+      <version>0.9.44</version>
+      <description>Roaring bitmaps are compressed bitmaps (also called bitsets) which tend to outperform conventional compressed bitmaps such as WAH or Concise.</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="MD5">9eb2fe2b7aab57c64518a4c44ee82c14</hash>
+        <hash alg="SHA-1">e22be0d690a99c046bf9f57106065a77edad1eda</hash>
+        <hash alg="SHA-256">a9242e7144043cd50901e5473b4176f4ff04a40397599acf783959effb06d19e</hash>
+        <hash alg="SHA-512">59afb96085a60e2e9e2d417bd61db861200d56db1fecd7417c218cff4322041306fae21fe6ed49b90bd15508d4ab71c62be3b30aeeb2e4416feef4d545b99dfb</hash>
+        <hash alg="SHA-384">d1b483e09fba47bcf7cc9fb7270fa4bd2ab0b5da685a104bfe48994e4b8dc89fb2e8abed61f463a2d3cfab848881564d</hash>
+        <hash alg="SHA3-384">71e823332a13074b79054529ac01c6662233c9042fe3c4e25f8ab37651238a3b036995ba152b7a08c6d8aff3050cd094</hash>
+        <hash alg="SHA3-256">e796f3db30e8cfcafd8d229eb495f34fa880ec67fa2064f00868b282bf22c2ab</hash>
+        <hash alg="SHA3-512">ccbfb1ebf2b598b595081b9300aaedc148764d90b3b3bf3873591364a52aa8c91fec5143f9fc99b307fb14fadb21361bed1724acec7a6b0ad1cd106bda94b657</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.roaringbitmap/shims@0.9.44?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://github.com/RoaringBitmap/RoaringBitmap</url></reference><reference type="issue-tracker"><url>https://github.com/RoaringBitmap/RoaringBitmap/issues</url></reference><reference type="vcs"><url>https://github.com/RoaringBitmap/RoaringBitmap</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.spark-project.spark/unused@1.0.0?type=jar">
+      <group>org.spark-project.spark</group>
+      <name>unused</name>
+      <version>1.0.0</version>
+      <description>Sonatype helps open source projects to set up Maven repositories on https://oss.sonatype.org/</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="MD5">763373ce9fe48581d4f2b8ffca35bb82</hash>
+        <hash alg="SHA-1">205fe37a2fade6ce6dfcf8eff57ed21a4a1c22af</hash>
+        <hash alg="SHA-256">00fd27fc9bde701581e7dcf5b95981d9e749a1c176bb8bfcd49f675768ff6bf0</hash>
+        <hash alg="SHA-512">08a6ac8d2dc9d89ff557c7e96096c76e687efe3ce166aa6dbb76865bbef64dc8b6ecb5561ef03c2451a688ccdb3876b8f16b9137d02c290a698e917a5656b6fa</hash>
+        <hash alg="SHA-384">c8c51d0d851835107db273d7ce522f026587d922c9d1d34739c3dedf9b7737c1c491e961dc7931f46c476d28acbc91f6</hash>
+        <hash alg="SHA3-384">49f87e8e11e7a4d9da068d33185a89bb8e7eef339a0e2932246acbaa8ad90a30ec353e9e71147a78a8b74dfe4bdd3a3b</hash>
+        <hash alg="SHA3-256">a943ae35f4d584810323330b6ef241a869b0187e4d3dfd79f8e504ebb0882cf2</hash>
+        <hash alg="SHA3-512">1e7845ca316f39bc5ffc75afe0dcb437fe13b8c2133a396824dec8f3a5bd56243086989264f8f40df4cb2ba749709e3a90cdceb39c05727cbd82d86570e4f57d</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.spark-project.spark/unused@1.0.0?type=jar</purl>
+      <externalReferences><reference type="website"><url>http://nexus.sonatype.org/oss-repository-hosting.html/unused</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference></externalReferences>
+    </component>
+  </components>
+  <dependencies>
+    <dependency ref="pkg:maven/org.apache.spark/spark-network-shuffle_2.12@3.5.0-SNAPSHOT?type=jar">
+      <dependency ref="pkg:maven/org.apache.spark/spark-network-common_2.12@3.5.0-SNAPSHOT?type=jar"/>
+      <dependency ref="pkg:maven/io.dropwizard.metrics/metrics-core@4.2.18?type=jar"/>
+      <dependency ref="pkg:maven/org.apache.spark/spark-tags_2.12@3.5.0-SNAPSHOT?type=jar"/>
+      <dependency ref="pkg:maven/org.slf4j/slf4j-api@2.0.7?type=jar"/>
+      <dependency ref="pkg:maven/com.google.guava/guava@14.0.1?type=jar"/>
+      <dependency ref="pkg:maven/org.roaringbitmap/RoaringBitmap@0.9.44?type=jar"/>
+      <dependency ref="pkg:maven/org.spark-project.spark/unused@1.0.0?type=jar"/>
+    </dependency>
+    <dependency ref="pkg:maven/org.apache.spark/spark-network-common_2.12@3.5.0-SNAPSHOT?type=jar">
+      <dependency ref="pkg:maven/org.scala-lang/scala-library@2.12.17?type=jar"/>
+      <dependency ref="pkg:maven/io.netty/netty-all@4.1.92.Final?type=jar"/>
+      <dependency ref="pkg:maven/io.netty/netty-transport-native-epoll@4.1.92.Final?classifier=linux-x86_64&amp;type=jar"/>
+      <dependency ref="pkg:maven/io.netty/netty-transport-native-epoll@4.1.92.Final?classifier=linux-aarch_64&amp;type=jar"/>
+      <dependency ref="pkg:maven/io.netty/netty-transport-native-kqueue@4.1.92.Final?classifier=osx-aarch_64&amp;type=jar"/>
+      <dependency ref="pkg:maven/io.netty/netty-transport-native-kqueue@4.1.92.Final?classifier=osx-x86_64&amp;type=jar"/>
+      <dependency ref="pkg:maven/org.apache.commons/commons-lang3@3.12.0?type=jar"/>
+      <dependency ref="pkg:maven/org.fusesource.leveldbjni/leveldbjni-all@1.8?type=jar"/>
+      <dependency ref="pkg:maven/org.rocksdb/rocksdbjni@8.1.1.1?type=jar"/>
+      <dependency ref="pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.15.2?type=jar"/>
+      <dependency ref="pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.15.2?type=jar"/>
+      <dependency ref="pkg:maven/io.dropwizard.metrics/metrics-core@4.2.18?type=jar"/>
+      <dependency ref="pkg:maven/com.google.code.findbugs/jsr305@3.0.0?type=jar"/>
+      <dependency ref="pkg:maven/com.google.guava/guava@14.0.1?type=jar"/>
+      <dependency ref="pkg:maven/org.apache.commons/commons-crypto@1.1.0?type=jar"/>
+      <dependency ref="pkg:maven/com.google.crypto.tink/tink@1.9.0?type=jar"/>
+      <dependency ref="pkg:maven/org.roaringbitmap/RoaringBitmap@0.9.44?type=jar"/>
+      <dependency ref="pkg:maven/org.apache.spark/spark-tags_2.12@3.5.0-SNAPSHOT?type=jar"/>
+      <dependency ref="pkg:maven/org.spark-project.spark/unused@1.0.0?type=jar"/>
+    </dependency>
+    <dependency ref="pkg:maven/org.scala-lang/scala-library@2.12.17?type=jar"/>
+    <dependency ref="pkg:maven/io.netty/netty-all@4.1.92.Final?type=jar">
+      <dependency ref="pkg:maven/io.netty/netty-buffer@4.1.92.Final?type=jar"/>
+      <dependency ref="pkg:maven/io.netty/netty-codec@4.1.92.Final?type=jar"/>
+      <dependency ref="pkg:maven/io.netty/netty-codec-http@4.1.92.Final?type=jar"/>
+      <dependency ref="pkg:maven/io.netty/netty-codec-http2@4.1.92.Final?type=jar"/>
+      <dependency ref="pkg:maven/io.netty/netty-codec-socks@4.1.92.Final?type=jar"/>
+      <dependency ref="pkg:maven/io.netty/netty-common@4.1.92.Final?type=jar"/>
+      <dependency ref="pkg:maven/io.netty/netty-handler@4.1.92.Final?type=jar"/>
+      <dependency ref="pkg:maven/io.netty/netty-transport-native-unix-common@4.1.92.Final?type=jar"/>
+      <dependency ref="pkg:maven/io.netty/netty-handler-proxy@4.1.92.Final?type=jar"/>
+      <dependency ref="pkg:maven/io.netty/netty-resolver@4.1.92.Final?type=jar"/>
+      <dependency ref="pkg:maven/io.netty/netty-transport@4.1.92.Final?type=jar"/>
+      <dependency ref="pkg:maven/io.netty/netty-transport-classes-epoll@4.1.92.Final?type=jar"/>
+      <dependency ref="pkg:maven/io.netty/netty-transport-classes-kqueue@4.1.92.Final?type=jar"/>
+      <dependency ref="pkg:maven/io.netty/netty-transport-native-epoll@4.1.92.Final?classifier=linux-x86_64&amp;type=jar"/>
+      <dependency ref="pkg:maven/io.netty/netty-transport-native-epoll@4.1.92.Final?classifier=linux-aarch_64&amp;type=jar"/>
+      <dependency ref="pkg:maven/io.netty/netty-transport-native-kqueue@4.1.92.Final?classifier=osx-x86_64&amp;type=jar"/>
+      <dependency ref="pkg:maven/io.netty/netty-transport-native-kqueue@4.1.92.Final?classifier=osx-aarch_64&amp;type=jar"/>
+    </dependency>
+    <dependency ref="pkg:maven/io.netty/netty-buffer@4.1.92.Final?type=jar"/>
+    <dependency ref="pkg:maven/io.netty/netty-codec@4.1.92.Final?type=jar"/>
+    <dependency ref="pkg:maven/io.netty/netty-codec-http@4.1.92.Final?type=jar"/>
+    <dependency ref="pkg:maven/io.netty/netty-codec-http2@4.1.92.Final?type=jar"/>
+    <dependency ref="pkg:maven/io.netty/netty-codec-socks@4.1.92.Final?type=jar"/>
+    <dependency ref="pkg:maven/io.netty/netty-common@4.1.92.Final?type=jar"/>
+    <dependency ref="pkg:maven/io.netty/netty-handler@4.1.92.Final?type=jar"/>
+    <dependency ref="pkg:maven/io.netty/netty-transport-native-unix-common@4.1.92.Final?type=jar"/>
+    <dependency ref="pkg:maven/io.netty/netty-handler-proxy@4.1.92.Final?type=jar"/>
+    <dependency ref="pkg:maven/io.netty/netty-resolver@4.1.92.Final?type=jar"/>
+    <dependency ref="pkg:maven/io.netty/netty-transport@4.1.92.Final?type=jar"/>
+    <dependency ref="pkg:maven/io.netty/netty-transport-classes-epoll@4.1.92.Final?type=jar"/>
+    <dependency ref="pkg:maven/io.netty/netty-transport-classes-kqueue@4.1.92.Final?type=jar"/>
+    <dependency ref="pkg:maven/io.netty/netty-transport-native-epoll@4.1.92.Final?classifier=linux-x86_64&amp;type=jar">
+      <dependency ref="pkg:maven/io.netty/netty-common@4.1.92.Final?type=jar"/>
+      <dependency ref="pkg:maven/io.netty/netty-buffer@4.1.92.Final?type=jar"/>
+      <dependency ref="pkg:maven/io.netty/netty-transport@4.1.92.Final?type=jar"/>
+      <dependency ref="pkg:maven/io.netty/netty-transport-native-unix-common@4.1.92.Final?type=jar"/>
+      <dependency ref="pkg:maven/io.netty/netty-transport-classes-epoll@4.1.92.Final?type=jar"/>
+    </dependency>
+    <dependency ref="pkg:maven/io.netty/netty-transport-native-epoll@4.1.92.Final?classifier=linux-aarch_64&amp;type=jar">
+      <dependency ref="pkg:maven/io.netty/netty-common@4.1.92.Final?type=jar"/>
+      <dependency ref="pkg:maven/io.netty/netty-buffer@4.1.92.Final?type=jar"/>
+      <dependency ref="pkg:maven/io.netty/netty-transport@4.1.92.Final?type=jar"/>
+      <dependency ref="pkg:maven/io.netty/netty-transport-native-unix-common@4.1.92.Final?type=jar"/>
+      <dependency ref="pkg:maven/io.netty/netty-transport-classes-epoll@4.1.92.Final?type=jar"/>
+    </dependency>
+    <dependency ref="pkg:maven/io.netty/netty-transport-native-kqueue@4.1.92.Final?classifier=osx-x86_64&amp;type=jar">
+      <dependency ref="pkg:maven/io.netty/netty-common@4.1.92.Final?type=jar"/>
+      <dependency ref="pkg:maven/io.netty/netty-buffer@4.1.92.Final?type=jar"/>
+      <dependency ref="pkg:maven/io.netty/netty-transport@4.1.92.Final?type=jar"/>
+      <dependency ref="pkg:maven/io.netty/netty-transport-native-unix-common@4.1.92.Final?type=jar"/>
+      <dependency ref="pkg:maven/io.netty/netty-transport-classes-kqueue@4.1.92.Final?type=jar"/>
+    </dependency>
+    <dependency ref="pkg:maven/io.netty/netty-transport-native-kqueue@4.1.92.Final?classifier=osx-aarch_64&amp;type=jar">
+      <dependency ref="pkg:maven/io.netty/netty-common@4.1.92.Final?type=jar"/>
+      <dependency ref="pkg:maven/io.netty/netty-buffer@4.1.92.Final?type=jar"/>
+      <dependency ref="pkg:maven/io.netty/netty-transport@4.1.92.Final?type=jar"/>
+      <dependency ref="pkg:maven/io.netty/netty-transport-native-unix-common@4.1.92.Final?type=jar"/>
+      <dependency ref="pkg:maven/io.netty/netty-transport-classes-kqueue@4.1.92.Final?type=jar"/>
+    </dependency>
+    <dependency ref="pkg:maven/org.apache.commons/commons-lang3@3.12.0?type=jar"/>
+    <dependency ref="pkg:maven/org.fusesource.leveldbjni/leveldbjni-all@1.8?type=jar"/>
+    <dependency ref="pkg:maven/org.rocksdb/rocksdbjni@8.1.1.1?type=jar"/>
+    <dependency ref="pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.15.2?type=jar">
+      <dependency ref="pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.15.2?type=jar"/>
+      <dependency ref="pkg:maven/com.fasterxml.jackson.core/jackson-core@2.15.2?type=jar"/>
+    </dependency>
+    <dependency ref="pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.15.2?type=jar"/>
+    <dependency ref="pkg:maven/com.fasterxml.jackson.core/jackson-core@2.15.2?type=jar"/>
+    <dependency ref="pkg:maven/io.dropwizard.metrics/metrics-core@4.2.18?type=jar">
+      <dependency ref="pkg:maven/org.slf4j/slf4j-api@2.0.7?type=jar"/>
+    </dependency>
+    <dependency ref="pkg:maven/org.slf4j/slf4j-api@2.0.7?type=jar"/>
+    <dependency ref="pkg:maven/com.google.code.findbugs/jsr305@3.0.0?type=jar"/>
+    <dependency ref="pkg:maven/com.google.guava/guava@14.0.1?type=jar"/>
+    <dependency ref="pkg:maven/org.apache.commons/commons-crypto@1.1.0?type=jar"/>
+    <dependency ref="pkg:maven/com.google.crypto.tink/tink@1.9.0?type=jar">
+      <dependency ref="pkg:maven/com.google.code.findbugs/jsr305@3.0.0?type=jar"/>
+      <dependency ref="pkg:maven/com.google.code.gson/gson@2.10.1?type=jar"/>
+      <dependency ref="pkg:maven/com.google.protobuf/protobuf-java@3.23.2?type=jar"/>
+      <dependency ref="pkg:maven/joda-time/joda-time@2.12.5?type=jar"/>
+    </dependency>
+    <dependency ref="pkg:maven/com.google.code.gson/gson@2.10.1?type=jar"/>
+    <dependency ref="pkg:maven/com.google.protobuf/protobuf-java@3.23.2?type=jar"/>
+    <dependency ref="pkg:maven/joda-time/joda-time@2.12.5?type=jar"/>
+    <dependency ref="pkg:maven/org.roaringbitmap/RoaringBitmap@0.9.44?type=jar">
+      <dependency ref="pkg:maven/org.roaringbitmap/shims@0.9.44?type=jar"/>
+    </dependency>
+    <dependency ref="pkg:maven/org.roaringbitmap/shims@0.9.44?type=jar"/>
+    <dependency ref="pkg:maven/org.apache.spark/spark-tags_2.12@3.5.0-SNAPSHOT?type=jar">
+      <dependency ref="pkg:maven/org.scala-lang/scala-library@2.12.17?type=jar"/>
+      <dependency ref="pkg:maven/org.spark-project.spark/unused@1.0.0?type=jar"/>
+    </dependency>
+    <dependency ref="pkg:maven/org.spark-project.spark/unused@1.0.0?type=jar"/>
+  </dependencies>
+</bom>

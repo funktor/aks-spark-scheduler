@@ -1,0 +1,10 @@
+**/*.conf
+**/*.pickle
+**/*.tgz
+**/*.tar.gz
+**/*.jar
+**/*.zip
+**/kproxy.txt
+**/__pycache__
+wheels
+set_runtime_env.sh

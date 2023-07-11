@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bom serialNumber="urn:uuid:c17ece49-1c7c-47e5-9c2c-84eec459b88e" version="1" xmlns="http://cyclonedx.org/schema/bom/1.4">
+  <metadata>
+    <timestamp>2023-06-17T15:12:26Z</timestamp>
+    <tools>
+      <tool>
+        <vendor>OWASP Foundation</vendor>
+        <name>CycloneDX Maven plugin</name>
+        <version>2.7.9</version>
+        <hashes>
+          <hash alg="MD5">8e595cdb67f17e4b41e046456970591d</hash>
+          <hash alg="SHA-1">69e8ca804520d09ce4657e7235bae84d01cbffa6</hash>
+          <hash alg="SHA-256">aa09074fe5aa403c008cd4fc7ef8ce41cd244489337f16b3e91a3914158a4db8</hash>
+          <hash alg="SHA-512">1488a8112da8e675813d7585f57c5efb178aed32901118186ee12d0e4ae3d19c53774c7f860bf70d17d70f050119b69443a2637cf641675b4b5d9cdcdd69b89b</hash>
+          <hash alg="SHA-384">b097295dfbf10887abc6eec58d4d0822cde5a73d1f5c1cf183a57bf569016ad5ced9d34efae3e574d82bb62837540c6c</hash>
+          <hash alg="SHA3-384">289f9520bd73a2031276248a6ef8f0891c691062c2d1ea86a2bc9ea8db2c52377d92a53be9957179e71aee3deda26a8c</hash>
+          <hash alg="SHA3-256">32b50a7efe5d491a4039c0017eca3cf49d98b55fc66d06b3dd06209487323474</hash>
+          <hash alg="SHA3-512">1daf813da53e5d5cda4d0302ff3a5e388aa45d96ebe6dcbe240f35d33f14b1e6390f6bbe7f21f3ed8cf96ebd9f5516a08b18487b7339715109c81cebfc1563df</hash>
+        </hashes>
+      </tool>
+    </tools>
+    <component type="library" bom-ref="pkg:maven/org.apache.spark/spark-unsafe_2.12@3.5.0-SNAPSHOT?type=jar">
+      <publisher>Apache Software Foundation</publisher>
+      <group>org.apache.spark</group>
+      <name>spark-unsafe_2.12</name>
+      <version>3.5.0-SNAPSHOT</version>
+      <description>The Apache Software Foundation provides support for the Apache community of open-source software projects.
+    The Apache projects are characterized by a collaborative, consensus based development process, an open and
+    pragmatic software license, and a desire to create high quality software that leads the way in its field.
+    We consider ourselves not simply a group of projects sharing a server, but rather a community of developers
+    and users.</description>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.apache.spark/spark-unsafe_2.12@3.5.0-SNAPSHOT?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://spark.apache.org/</url></reference><reference type="distribution"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference><reference type="issue-tracker"><url>https://issues.apache.org/jira/browse/SPARK</url></reference><reference type="mailing-list"><url>dev-subscribe@spark.apache.org</url></reference><reference type="vcs"><url>scm:git:git@github.com:apache/spark.git/common/spark-unsafe_2.12</url></reference></externalReferences>
+    </component>
+    <properties>
+      <property name="maven.goal">makeBom</property>
+      <property name="maven.scopes">compile,provided,runtime,system</property>
+    </properties>
+  </metadata>
+  <components>
+    <component type="library" bom-ref="pkg:maven/org.apache.spark/spark-tags_2.12@3.5.0-SNAPSHOT?type=jar">
+      <publisher>Apache Software Foundation</publisher>
+      <group>org.apache.spark</group>
+      <name>spark-tags_2.12</name>
+      <version>3.5.0-SNAPSHOT</version>
+      <description>The Apache Software Foundation provides support for the Apache community of open-source software projects.
+    The Apache projects are characterized by a collaborative, consensus based development process, an open and
+    pragmatic software license, and a desire to create high quality software that leads the way in its field.
+    We consider ourselves not simply a group of projects sharing a server, but rather a community of developers
+    and users.</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="MD5">d973a2c733fb53481f21c66df62c2ff2</hash>
+        <hash alg="SHA-1">83ec5125fd6d797a729a524eb0d8199213a3db34</hash>
+        <hash alg="SHA-256">1250847b5632ac256fff52032db02303dd8340159a43e3e68efaf47ea5a0857d</hash>
+        <hash alg="SHA-512">db162208bb86ef2645d122bb2852991bdbeda1b647e78d4d761600aa179ed7f6202022053908f5f4f6f92c93841ea002102175ebf43fd59ba003a7c296ea3bb9</hash>
+        <hash alg="SHA-384">dfee6d0f8b88840233c74208e3346d6eb36fff70a2a406e1d84c1275298ce054b0ddadd22887a6c56a92d193bf44c695</hash>
+        <hash alg="SHA3-384">d6d12341c397c865ee29e78c5afb6cce7cf1b2538ae2cde5cfe4ad14a75da0e97bab6a8c8628501ba3bb2d574434908d</hash>
+        <hash alg="SHA3-256">10e3733474b5c7cea7f2db13f1eb1ec4f82606d2af47d03ea90aece26323240b</hash>
+        <hash alg="SHA3-512">cc803de485a7bb462ff60d611b03a0fd786855e4fe30c0359552722ff6dfbb2046b9d7891aaf27346d26a33caf98d936b1290ee5374221b69e31cfd707472317</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.apache.spark/spark-tags_2.12@3.5.0-SNAPSHOT?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://spark.apache.org/</url></reference><reference type="distribution"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference><reference type="issue-tracker"><url>https://issues.apache.org/jira/browse/SPARK</url></reference><reference type="mailing-list"><url>dev-subscribe@spark.apache.org</url></reference><reference type="vcs"><url>scm:git:git@github.com:apache/spark.git/common/spark-tags_2.12</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.scala-lang/scala-library@2.12.17?type=jar">
+      <publisher>LAMP/EPFL</publisher>
+      <group>org.scala-lang</group>
+      <name>scala-library</name>
+      <version>2.12.17</version>
+      <description>Standard library for the Scala Programming Language</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="MD5">1b31b3bd2d82c3ad05895815423e0caf</hash>
+        <hash alg="SHA-1">4a4dee1ebb59ed1dbce014223c7c42612e4cddde</hash>
+        <hash alg="SHA-256">7eefde7e3cc1937f78dc13b9e6c00746f602cff6f5621d62df2c24d922619fe0</hash>
+        <hash alg="SHA-512">31a05fdabb79470122abdf184defbc21bb713e1bef57014e187b3165a0630ae901a7dc86ce5312a48bd7b7e215e4226a9b04807e3a6a1a44099f174c46df0bba</hash>
+        <hash alg="SHA-384">269c694c2467ea1fa2effba54d59efa5ee806f2eb68dba97398977d28b6bad3c19796f0e43309ea64942fb750ba81754</hash>
+        <hash alg="SHA3-384">f1743f62c50219057d97f9832d4e82f831d36eeacaf9ed9aa403ba8f838833e279c871f33ce8e2c9d21ba88a05c742b1</hash>
+        <hash alg="SHA3-256">83c8eb1e819e12715d2b76abb987b19bdaa4f71dac61b398dc7aff9bc87c2339</hash>
+        <hash alg="SHA3-512">a70056828f6a2fcecfaea4776f64e823d5962ac4144dd11277417e68e059b5abe4cb11e3ad1df8f7cb7c21d6ba9f35963519670c15dd6f840cbf57c61f2ca236</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+          <url>https://www.apache.org/licenses/LICENSE-2.0</url>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.scala-lang/scala-library@2.12.17?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://www.scala-lang.org/</url></reference><reference type="issue-tracker"><url>https://github.com/scala/bug/issues</url></reference><reference type="vcs"><url>https://github.com/scala/scala</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/com.twitter/chill_2.12@0.10.0?type=jar">
+      <publisher>com.twitter</publisher>
+      <group>com.twitter</group>
+      <name>chill_2.12</name>
+      <version>0.10.0</version>
+      <description>chill</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="MD5">a2cedd70ae6d7327696c24ff5464072d</hash>
+        <hash alg="SHA-1">b208321208c0b3232a305fccd59df3d6a1f1eecd</hash>
+        <hash alg="SHA-256">5cb5db46112699e6de681dedc0c1d0b300f5ccc2c0921b6bb3e4dba2e66c6fe6</hash>
+        <hash alg="SHA-512">862d7d4c3de2d7cb94a6fa90dcec683e14c67944c6a542a30b7cf522b46c306fed6399dd300b5c4357fa7a9d6ce166081326c0800865af28dc5b7994d2577d66</hash>
+        <hash alg="SHA-384">575c027e5be30fb1a43637ce7a4739b48c5c42418b6000f74477d2921d8d6db48420e510bbfa55d810b0207c1c017faf</hash>
+        <hash alg="SHA3-384">2feb88b9398c232c7f5c59cf9fb77fbb5348092582f7b503a99f1efca4635c80300ef37392e8a78906fc1c8775cf541a</hash>
+        <hash alg="SHA3-256">00be3383c41a4e30b424d9a7f022e9492dcceaa6eefa65e2c7a90266c06de117</hash>
+        <hash alg="SHA3-512">16cba3f44f1025db69b02724b868b940cd6c4d488a51f8ed98aa127aa673a89e606b838b2557aa3a6549c2e48e2e58f7055b2433975d99f6809c1ba2b7d3ee26</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/com.twitter/chill_2.12@0.10.0?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://github.com/twitter/chill</url></reference><reference type="vcs"><url>https://github.com/twitter/chill</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/com.twitter/chill-java@0.10.0?type=jar">
+      <publisher>com.twitter</publisher>
+      <group>com.twitter</group>
+      <name>chill-java</name>
+      <version>0.10.0</version>
+      <description>chill-java</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="MD5">3c0e9cbbb2016364333f2cea3922ae97</hash>
+        <hash alg="SHA-1">0fd2eb52afd9ab4337c9e51823f41ad8916e6976</hash>
+        <hash alg="SHA-256">52afd3c1256d6f89293ba616c0c9ebf11191bb9e8159cd0c1cfdc99e5e0c5ffe</hash>
+        <hash alg="SHA-512">48ae455095f0a9ff7ed9b84c9b9bf339c14f6599703b7a34a473ea9c457b0ae700f793d6bf00d1af5e0eb307c9a68d2a10309faea77aaf2245afded08420cb8d</hash>
+        <hash alg="SHA-384">7641e1570bd40b064e17c98c656b8b80680b36d2678973c53ea0557fb212d9ce535eda748cb7234813d953ef90e2cb8d</hash>
+        <hash alg="SHA3-384">faf3cd7194a5ac06f9890d5a0cedd4645195dfa8de96d79245aeae7638915ce22495abb39ca82af6f604600fe15b2869</hash>
+        <hash alg="SHA3-256">486eb481050b3da17ec5b3cf51c8c5cbcf8a972b27261dd34693977644873dae</hash>
+        <hash alg="SHA3-512">2d4e782d6a2db53be3e36c9c5861b46a23320c15149d3ba2907575ae3de7372324e56fba30143d0c86f0132b49bedc5290704266b172a08d8747ab27346bcde9</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/com.twitter/chill-java@0.10.0?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://github.com/twitter/chill</url></reference><reference type="vcs"><url>https://github.com/twitter/chill</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/com.esotericsoftware/kryo-shaded@4.0.2?type=jar">
+      <group>com.esotericsoftware</group>
+      <name>kryo-shaded</name>
+      <version>4.0.2</version>
+      <description>Fast, efficient Java serialization. This contains the shaded reflectasm jar to prevent conflicts with other versions of asm.</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="MD5">27717b481916c44eed34ea7a68782ed5</hash>
+        <hash alg="SHA-1">e8c89779f93091aa9cb895093402b5d15065bf88</hash>
+        <hash alg="SHA-256">a4899f57fef456b9ec66f730e7b493ecb3dc494cc5758721ed9c18416fd2d3b6</hash>
+        <hash alg="SHA-512">21d3500194117f5f34951c7374bdde658be18b842866ea68f16ef47453d4dd31b11d384af2dab3ac4340b015b414402f6b45d4e6a10354fbda5bd8a17e4ce3e3</hash>
+        <hash alg="SHA-384">33c8d09ba00c14a077e82f2d7c1a54496a21d20896505d1d97cd30f22d9cb773e060061abc43fc14f15b6619ba4f0c86</hash>
+        <hash alg="SHA3-384">c94e3943033fd712c2793ac4f16abe9cf6e9ae083b5597fe5645d63b8a2ec5c938e1c62f37b3c684cd397f7ec7f70536</hash>
+        <hash alg="SHA3-256">9d32ce48c6be860e309472479af5dbf8cff17bd3140a6aa775adca5eabba7894</hash>
+        <hash alg="SHA3-512">3bd68742bf12417ba93160a8919f4a7d83d3df0717f5c83c1b152872f195e8a695df24cf643e0e3669b807214247bd8cfc2ee31e0affe07f20a0411c52072872</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>BSD-3-Clause</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/com.esotericsoftware/kryo-shaded@4.0.2?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://github.com/EsotericSoftware/kryo/kryo-shaded</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="vcs"><url>https://github.com/EsotericSoftware/kryo/kryo-shaded</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/com.esotericsoftware/minlog@1.3.0?type=jar">
+      <group>com.esotericsoftware</group>
+      <name>minlog</name>
+      <version>1.3.0</version>
+      <description>Minimal overhead Java logging</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="MD5">5ab0ee168b90e0ad7010b159e603d304</hash>
+        <hash alg="SHA-1">ff07b5f1b01d2f92bb00a337f9a94873712f0827</hash>
+        <hash alg="SHA-256">f7b399d3a5478a4f3e0d98bd1c9f47766119c66414bc33aa0f6cde0066f24cc2</hash>
+        <hash alg="SHA-512">ca319c94b7fd8a275dcc3c5102fc01d73071ac77f5e14b4fc5b6547f96574a4fff0e8cb7b0b0d5006e71faa00575a91defdbfc92a94d9d38dd65520d4ab52000</hash>
+        <hash alg="SHA-384">3f9b5b7fd91332ad64d235024d486e24b00760e714713153a61f10e6867bc3e5b617a7bf0bed889a01f0cdb435415d6a</hash>
+        <hash alg="SHA3-384">53f87e7d1c0615c0d443cf8f1dc2d83cbe8c72ba18061a68ec4d8dea8020a21aed04fec338e7eb2d566acac1f7f267b0</hash>
+        <hash alg="SHA3-256">5eb8dd240a7196fc28a6c312148513f6c3d4af48abb46e1744bd730f479b0dd0</hash>
+        <hash alg="SHA3-512">7573361d0b824f2db4fc9d06aab133021a2e07b5f32be296781eb105b3f6002314520fea1f2c856d0e4a0522ea5ff6a5cb046f1a832f2d772999cd17e36d7bd4</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>BSD-3-Clause</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/com.esotericsoftware/minlog@1.3.0?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://github.com/EsotericSoftware/minlog</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="vcs"><url>https://github.com/EsotericSoftware/minlog</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/com.google.code.findbugs/jsr305@3.0.0?type=jar">
+      <group>com.google.code.findbugs</group>
+      <name>jsr305</name>
+      <version>3.0.0</version>
+      <description>JSR305 Annotations for Findbugs</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="MD5">195d5db8981fbec5fa18d5df9fad95ed</hash>
+        <hash alg="SHA-1">5871fb60dc68d67da54a663c3fd636a10a532948</hash>
+        <hash alg="SHA-256">bec0b24dcb23f9670172724826584802b80ae6cbdaba03bdebdef9327b962f6a</hash>
+        <hash alg="SHA-512">399510f759fb48255c6298f3545c9b644372fbc9d7245e80e6b51f49da0ac9275d104092c537ac047d5a1312c7d191dee8d655ca8d760b59ce1452bf4370a6e0</hash>
+        <hash alg="SHA-384">a7fa7a0b69f41518fdb70e847148e17d0909fb657cee127308fb6cd14f913c63c82608aeae3955f10b48d358a8addfee</hash>
+        <hash alg="SHA3-384">e55c3626a26119f465822e95c33266304bd87755e5e5865833dc10f4e2c1105c6c3ddc9efd889b1e43b346663627745b</hash>
+        <hash alg="SHA3-256">dbd709e4edb2fe0ebd9b0d993e35f9fbf8bdb21cce13139bc6986c829c03aed6</hash>
+        <hash alg="SHA3-512">a7cd693c969c8f9f6417030e987a4dda020c6a35d2b4174935baacf91619fc239fdf15a0af9a64d05855c872600c9744ee2755ad705b6d59fe099deea1e439bd</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/com.google.code.findbugs/jsr305@3.0.0?type=jar</purl>
+      <externalReferences><reference type="website"><url>http://findbugs.sourceforge.net/</url></reference><reference type="vcs"><url>https://code.google.com/p/findbugs/</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/com.google.guava/guava@14.0.1?type=jar">
+      <group>com.google.guava</group>
+      <name>guava</name>
+      <version>14.0.1</version>
+      <description>Guava is a suite of core and expanded libraries that include
+    utility classes, google's collections, io classes, and much
+    much more.
+
+    Guava has two code dependencies - javax.annotation
+    per the JSR-305 spec and javax.inject per the JSR-330 spec.</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="MD5">58553f87d83b9f8ec74bd3529083ee2f</hash>
+        <hash alg="SHA-1">69e12f4c6aeac392555f1ea86fab82b5e5e31ad4</hash>
+        <hash alg="SHA-256">d69df3331840605ef0e5fe4add60f2d28e870e3820937ea29f713d2035d9ab97</hash>
+        <hash alg="SHA-512">e920540dbdee79fba1a5e0966ae92ac37358aa4126c04a08732e4260916807901d8dea41322037ef7908fc0204281d05a1bfa95401fcfc473630c0bc8e81343a</hash>
+        <hash alg="SHA-384">1f5c72fdf4fbef5fe6044054d83cda82d409ce2b8e304913cc985341ceb13e75728dfcdba522dc87aa04577a054afeae</hash>
+        <hash alg="SHA3-384">9ed7ee275c97f7e8d5087efc38c217e25eb7e55f94d8ea900775f1764b97cccdb91b75095b47443563d0178c88106f6e</hash>
+        <hash alg="SHA3-256">1f1db7170a0f57d7e282500355dc634336200407612fd291e08b2fd40de5b62d</hash>
+        <hash alg="SHA3-512">8ed7822622b630a6724ed0c86b94e51cae21221ffc7f603b857dff4417f0607b276ce5e7ed8fe2e13613e744dfea49333195372b7eb8f6570d15448135f5f39c</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/com.google.guava/guava@14.0.1?type=jar</purl>
+      <externalReferences><reference type="website"><url>http://code.google.com/p/guava-libraries/guava</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>http://code.google.com/p/guava-libraries/issues</url></reference><reference type="vcs"><url>http://code.google.com/p/guava-libraries/source/browse/guava</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.slf4j/slf4j-api@2.0.7?type=jar">
+      <publisher>QOS.ch</publisher>
+      <group>org.slf4j</group>
+      <name>slf4j-api</name>
+      <version>2.0.7</version>
+      <description>The slf4j API</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="MD5">403dffa46cdd2e3c82da19df4f394a4c</hash>
+        <hash alg="SHA-1">41eb7184ea9d556f23e18b5cb99cad1f8581fc00</hash>
+        <hash alg="SHA-256">5d6298b93a1905c32cda6478808ac14c2d4a47e91535e53c41f7feeb85d946f4</hash>
+        <hash alg="SHA-512">216d2cac27d501972c888f94dfa747d700b80d60813884b6ab4b12c6a3b17ed0c21a1d27e1aa4332c97c828f20039e3913d2763d7e1a3cef36ae4389a276e7a8</hash>
+        <hash alg="SHA-384">c25b39f418aa726ba8405dfd9b356131f89984e2ef5a55a724a2abf3b7c78443f671105835161d2414d602cf03da9f2d</hash>
+        <hash alg="SHA3-384">f33abfaac21badae6f85d3ebbc6c1204fd7fda3bb15173e763fa8cee95bce6a8270eec2c8f49343c66c8d2767bc317e1</hash>
+        <hash alg="SHA3-256">6e00d4b264a2afc4ca4e98f716ecece66c32c626ca3f8c5d56b22092b6fe417b</hash>
+        <hash alg="SHA3-512">ad7b9142d370fc532a07cdd43881a129b012ff50e2bede3ac27d9bd31ec707bf2f45e82002fa59e962955cc38ab73cdd77713fca50cedc926c046f5617c1285b</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>MIT</id>
+          <url>https://opensource.org/licenses/MIT</url>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.slf4j/slf4j-api@2.0.7?type=jar</purl>
+      <externalReferences><reference type="website"><url>http://www.slf4j.org</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="vcs"><url>https://github.com/qos-ch/slf4j/slf4j-api</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.objenesis/objenesis@3.3?type=jar">
+      <publisher>Joe Walnes, Henri Tremblay, Leonardo Mesquita</publisher>
+      <group>org.objenesis</group>
+      <name>objenesis</name>
+      <version>3.3</version>
+      <description>A library for instantiating Java objects</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="MD5">ab0e0b2ab81affdd7f38bcc60fd85571</hash>
+        <hash alg="SHA-1">1049c09f1de4331e8193e579448d0916d75b7631</hash>
+        <hash alg="SHA-256">02dfd0b0439a5591e35b708ed2f5474eb0948f53abf74637e959b8e4ef69bfeb</hash>
+        <hash alg="SHA-512">1fa990d15bd179f07ffbc460d580a6fd0562e45dee8bd4a9405917536b78f45c0d6f644b67f85d781c758aa56eff90aef23eedcc9bd7f5ff887a67b716083e61</hash>
+        <hash alg="SHA-384">2f6878f91a12db32c244afcee619d57c3ad6ff0297f4e41c2247e737c1ccc5fcc1ce03256b479b0f9b87900410bc4502</hash>
+        <hash alg="SHA3-384">a3dd9f6908fe732900d50eb209988183ffcf511afb4e401ef95b75c51777709d2d10e1dc9ee386b7357c5c2cbcf8c00e</hash>
+        <hash alg="SHA3-256">fd2b66d174ed68cbfcda41d5cbd29db766c5676866d6b2324b446a87afab3a9f</hash>
+        <hash alg="SHA3-512">ef509e8bcea73bc282287205ffc7625508080be44c16948137274f189459624891dcf109118c9feff109e1aa99becf176f8db837ac4fd586201510c3ae2ea30a</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.objenesis/objenesis@3.3?type=jar</purl>
+      <externalReferences><reference type="website"><url>http://objenesis.org/objenesis</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="vcs"><url>https://github.com/easymock/objenesis/objenesis</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.spark-project.spark/unused@1.0.0?type=jar">
+      <group>org.spark-project.spark</group>
+      <name>unused</name>
+      <version>1.0.0</version>
+      <description>Sonatype helps open source projects to set up Maven repositories on https://oss.sonatype.org/</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="MD5">763373ce9fe48581d4f2b8ffca35bb82</hash>
+        <hash alg="SHA-1">205fe37a2fade6ce6dfcf8eff57ed21a4a1c22af</hash>
+        <hash alg="SHA-256">00fd27fc9bde701581e7dcf5b95981d9e749a1c176bb8bfcd49f675768ff6bf0</hash>
+        <hash alg="SHA-512">08a6ac8d2dc9d89ff557c7e96096c76e687efe3ce166aa6dbb76865bbef64dc8b6ecb5561ef03c2451a688ccdb3876b8f16b9137d02c290a698e917a5656b6fa</hash>
+        <hash alg="SHA-384">c8c51d0d851835107db273d7ce522f026587d922c9d1d34739c3dedf9b7737c1c491e961dc7931f46c476d28acbc91f6</hash>
+        <hash alg="SHA3-384">49f87e8e11e7a4d9da068d33185a89bb8e7eef339a0e2932246acbaa8ad90a30ec353e9e71147a78a8b74dfe4bdd3a3b</hash>
+        <hash alg="SHA3-256">a943ae35f4d584810323330b6ef241a869b0187e4d3dfd79f8e504ebb0882cf2</hash>
+        <hash alg="SHA3-512">1e7845ca316f39bc5ffc75afe0dcb437fe13b8c2133a396824dec8f3a5bd56243086989264f8f40df4cb2ba749709e3a90cdceb39c05727cbd82d86570e4f57d</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.spark-project.spark/unused@1.0.0?type=jar</purl>
+      <externalReferences><reference type="website"><url>http://nexus.sonatype.org/oss-repository-hosting.html/unused</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference></externalReferences>
+    </component>
+  </components>
+  <dependencies>
+    <dependency ref="pkg:maven/org.apache.spark/spark-unsafe_2.12@3.5.0-SNAPSHOT?type=jar">
+      <dependency ref="pkg:maven/org.apache.spark/spark-tags_2.12@3.5.0-SNAPSHOT?type=jar"/>
+      <dependency ref="pkg:maven/com.twitter/chill_2.12@0.10.0?type=jar"/>
+      <dependency ref="pkg:maven/com.google.code.findbugs/jsr305@3.0.0?type=jar"/>
+      <dependency ref="pkg:maven/com.google.guava/guava@14.0.1?type=jar"/>
+      <dependency ref="pkg:maven/org.slf4j/slf4j-api@2.0.7?type=jar"/>
+      <dependency ref="pkg:maven/org.spark-project.spark/unused@1.0.0?type=jar"/>
+    </dependency>
+    <dependency ref="pkg:maven/org.apache.spark/spark-tags_2.12@3.5.0-SNAPSHOT?type=jar">
+      <dependency ref="pkg:maven/org.scala-lang/scala-library@2.12.17?type=jar"/>
+      <dependency ref="pkg:maven/org.spark-project.spark/unused@1.0.0?type=jar"/>
+    </dependency>
+    <dependency ref="pkg:maven/org.scala-lang/scala-library@2.12.17?type=jar"/>
+    <dependency ref="pkg:maven/org.spark-project.spark/unused@1.0.0?type=jar"/>
+    <dependency ref="pkg:maven/com.twitter/chill_2.12@0.10.0?type=jar">
+      <dependency ref="pkg:maven/org.scala-lang/scala-library@2.12.17?type=jar"/>
+      <dependency ref="pkg:maven/com.twitter/chill-java@0.10.0?type=jar"/>
+      <dependency ref="pkg:maven/com.esotericsoftware/kryo-shaded@4.0.2?type=jar"/>
+    </dependency>
+    <dependency ref="pkg:maven/com.twitter/chill-java@0.10.0?type=jar">
+      <dependency ref="pkg:maven/com.esotericsoftware/kryo-shaded@4.0.2?type=jar"/>
+    </dependency>
+    <dependency ref="pkg:maven/com.esotericsoftware/kryo-shaded@4.0.2?type=jar">
+      <dependency ref="pkg:maven/com.esotericsoftware/minlog@1.3.0?type=jar"/>
+      <dependency ref="pkg:maven/org.objenesis/objenesis@3.3?type=jar"/>
+    </dependency>
+    <dependency ref="pkg:maven/com.esotericsoftware/minlog@1.3.0?type=jar"/>
+    <dependency ref="pkg:maven/org.objenesis/objenesis@3.3?type=jar"/>
+    <dependency ref="pkg:maven/com.google.code.findbugs/jsr305@3.0.0?type=jar"/>
+    <dependency ref="pkg:maven/com.google.guava/guava@14.0.1?type=jar"/>
+    <dependency ref="pkg:maven/org.slf4j/slf4j-api@2.0.7?type=jar"/>
+  </dependencies>
+</bom>
