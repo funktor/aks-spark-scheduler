@@ -4,8 +4,8 @@ metadata:
   name: spark-task
   namespace: default
 spec:
-  # Run the job every minute
-  schedule: "* * * * *" 
+  # Run the job every day at 3 AM
+  schedule: "0 3 * * *" 
   concurrencyPolicy: Allow
   template:
     type: Python
@@ -23,6 +23,11 @@ spec:
     restartPolicy:
       type: Never
     sparkVersion: "3.4.2"
+    dynamicAllocation:
+      enabled: true
+      initialExecutors: 5
+      minExecutors: 2
+      maxExecutors: 20
     driver:
       serviceAccount: spark
       javaOptions: "-Divy.cache.dir=/tmp -Divy.home=/tmp"
@@ -46,7 +51,6 @@ spec:
           name: app
           key: blob_storage_out
     executor:
-      instances: 5
       envSecretKeyRefs:
         APP_ID:
           name: app

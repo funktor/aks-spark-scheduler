@@ -45,4 +45,3 @@ def get_key_vault_secret(app_id:str,
                      credential=credential)
         
     return secret_client.get_secret(kv_secret).value
-
