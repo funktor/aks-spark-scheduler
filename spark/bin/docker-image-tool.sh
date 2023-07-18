@@ -116,11 +116,8 @@ function create_dev_build_context {(
   cp -r "resource-managers/kubernetes/docker/src/main/dockerfiles" \
     "$PYSPARK_CTX/kubernetes/dockerfiles"
   mkdir "$PYSPARK_CTX/python"
-  mkdir "$PYSPARK_CTX/app"
   cp -r "python/lib" "$PYSPARK_CTX/python/lib"
   cp -r "python/pyspark" "$PYSPARK_CTX/python/pyspark"
-  cp -r "app/requirements.txt" "$PYSPARK_CTX/app/requirements.txt"
-  cp -r "app" "$PYSPARK_CTX/app"
 
   local R_CTX="$CTX_DIR/sparkr"
   mkdir -p "$R_CTX/kubernetes"

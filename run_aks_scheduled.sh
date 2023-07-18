@@ -8,7 +8,7 @@ source set_runtime_env.sh
 ./containerize_k8s.sh --registry $ACR_URL
 
 # Build and push the scheduler docker image
-docker build --build-arg "base_img=$PYSPARK_IMAGE" -f Dockerfile.aks -t $AKS_SCHEDULER_IMAGE .
+docker build --build-arg "base_img=$PYSPARK_IMAGE" -t $AKS_SCHEDULER_IMAGE .
 docker tag $AKS_SCHEDULER_IMAGE $ACR_URL/$AKS_SCHEDULER_IMAGE
 docker push $ACR_URL/$AKS_SCHEDULER_IMAGE
 
