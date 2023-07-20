@@ -21,6 +21,9 @@ kubectl create secret generic app \
     --from-literal="blob_storage_inp=$BLOB_STORAGE_INP_CONTAINER" \
     --from-literal="blob_storage_out=$BLOB_STORAGE_OUT_CONTAINER"
 
+# Deploy volcano scheduler
+kubectl apply -f https://raw.githubusercontent.com/volcano-sh/volcano/master/installer/volcano-development.yaml
+
 # Deploy the cron scheduler
 kubectl apply -f aks-manifest.yml
 

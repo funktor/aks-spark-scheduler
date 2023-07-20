@@ -5,8 +5,8 @@ metadata:
   namespace: default
 spec:
   # Run the job every day at 3 AM
-  schedule: "0 3 * * *" 
-  concurrencyPolicy: Allow
+  schedule: "* * * * *" 
+  concurrencyPolicy: Forbid
   template:
     type: Python
     pythonVersion: "3"
@@ -32,6 +32,16 @@ spec:
       initialExecutors: 1
       minExecutors: 1
       maxExecutors: 160
+    volumes:
+      - name: "spark-local-dir-1"
+        hostPath:
+          path: "/tmp/mnt-1"
+      - name: "spark-local-dir-2"
+        hostPath:
+          path: "/tmp/mnt-2"
+      - name: "spark-local-dir-3"
+        hostPath:
+          path: "/tmp/mnt-3"
     driver:
       serviceAccount: spark
       javaOptions: "-Divy.cache.dir=/tmp -Divy.home=/tmp"
@@ -55,6 +65,13 @@ spec:
           name: app
           key: blob_storage_out
     executor:
+      volumeMounts:
+        - name: "spark-local-dir-1"
+          mountPath: "/tmp/mnt-1"
+        - name: "spark-local-dir-2"
+          mountPath: "/tmp/mnt-2"
+        - name: "spark-local-dir-3"
+          mountPath: "/tmp/mnt-3"
       envSecretKeyRefs:
         APP_ID:
           name: app
