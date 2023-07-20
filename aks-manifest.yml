@@ -5,8 +5,8 @@ metadata:
   namespace: default
 spec:
   # Run the job every day at 3 AM
-  schedule: "* * * * *" 
-  concurrencyPolicy: Forbid
+  schedule: "0 3 * * *" 
+  concurrencyPolicy: Allow
   template:
     type: Python
     pythonVersion: "3"
